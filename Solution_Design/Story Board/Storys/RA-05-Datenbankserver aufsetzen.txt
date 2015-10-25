@@ -7,3 +7,4 @@ als das per scratch/manuelle Installation ein Datenmodell eingespielt werden kan
 Anforderungen:
 Datenbank muss für die Verwendung der WEbanwendung erreichbar(lesend/schreibend) sein.
 Zugangsdaten müssen so hinterlegt sein, dass diese auf Anfrage bereitgestellt werden können.
+Zusammenarbeit mit dem Application Server muss sichergestellt werden und alle Funktionen die später benötigt werden, müssen bereitgestellt werden.
