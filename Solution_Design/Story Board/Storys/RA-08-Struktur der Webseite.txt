@@ -1,6 +1,9 @@
 RA-08-Struktur der Webseite
 
 Ziel:
+Eine erste Vorstellung der Struktur der Website. Keine finale Version erwartet.
 
 Anforderung:
-
+- Baumstruktur (oder vergleichbares) für die Verknüpfungen/Vertiefungen
+- Welche Funktion wird wo gesehen
+- 
