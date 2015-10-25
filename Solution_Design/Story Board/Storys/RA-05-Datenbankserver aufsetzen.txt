@@ -1,5 +1,8 @@
 RA-05-Datenbankserver aufsetzen
 
 Ziel:
-
+Datenbankserver sind initialiesert und insofern erreichbar,
+als das per scratch/manuelle Installation ein Datenmodell eingespielt werden kann
 Anforderungen:
+Datenbank muss für die Verwendung der WEbanwendung erreichbar(lesend/schreibend) sein.
+Zugangsdaten müssen so hinterlegt sein, dass diese auf Anfrage bereitgestellt werden können.
