@@ -6,4 +6,5 @@ Eine erste Vorstellung der Struktur der Website. Keine finale Version erwartet.
 Anforderung:
 - Baumstruktur (oder vergleichbares) für die Verknüpfungen/Vertiefungen
 - Welche Funktion wird wo gesehen
-- 
+- MokUp der groben Struktur erstellen (https://docs.google.com/presentation/d/1riZU-1kVhvNQE0vPFkipEiCkUyzk537J87V0gesxajw/edit?usp=sharing)
+
