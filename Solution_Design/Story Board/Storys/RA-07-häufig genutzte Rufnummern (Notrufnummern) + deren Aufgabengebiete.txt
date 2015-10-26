@@ -3,3 +3,11 @@ RA-07-häufig genutzte Rufnummern (Notrufnummern) + deren Aufgabengebiete
 Ziel:
 
 Anforderungen:
+- Notrufnummern Auflisten + Funktion
+- Feuerwehr
+Rettungsdienst
+Polizei (dein Freund und Helfer)
+911
+Flüchtlingshotline???
+
+ect.
