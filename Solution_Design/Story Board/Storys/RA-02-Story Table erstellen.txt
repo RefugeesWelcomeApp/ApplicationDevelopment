@@ -5,7 +5,7 @@ eine Übersicht über die Sprints, der vorhandenen und noch zu erledigenden Stor
 Anforderungen:
 - Kategoriesierung
 - Farbliche Unterscheidung
-- ein Tabellenblatt für jeden Sprint, wo dieser genau definiert wird
+- ein Tabellenblatt für jeden Sprint, wo dieser genau definiert werden kann
 - funktionelle Erleichterung späterer Arbeiten (Namen Auswahl etc.)
 - was man eben noch schönes mit Google Docs anstellen kann
 - Bearbeitungsbeschränkung auf das Orga_Team
