@@ -1,0 +1,7 @@
+RA-10-Übernahme des Initial Mockup in PPT
+Ziel:
+Erste graphische Darstellung eines möglichen Layouts
+
+Anforderungen:
+Skizze des möglichen Layouts
+PowerPoint
