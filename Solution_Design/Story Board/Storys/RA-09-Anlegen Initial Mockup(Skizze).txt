@@ -1,7 +1,10 @@
 RA-09-Anlegen Initial Mockup(Skizze)
 Ziel:
-Erstellen eins ersten, vorläufigen Layout Mockups
+Erstellen einer ersten Skizze eines möglichen Layouts
 
 Anforderungen:
-Absprache eines Layouts
-Beschreibung des Layouts in schriftlicher Form
+Inhalte der Seite bekannt
+Vorstellung von der Struktur der Seite
+Papier
+Bleistift
+mittelmäßige Auge-Hand Koordination
