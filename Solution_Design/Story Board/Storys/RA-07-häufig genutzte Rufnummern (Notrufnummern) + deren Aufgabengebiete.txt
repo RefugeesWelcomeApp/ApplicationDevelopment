@@ -1,6 +1,7 @@
 RA-07-häufig genutzte Rufnummern (Notrufnummern) + deren Aufgabengebiete
 
 Ziel:
+Übersicht über die wichtigsten Rufnummern
 
 Anforderungen:
 - Notrufnummern Auflisten + Funktion
