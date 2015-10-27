@@ -1,0 +1,8 @@
+RA-11-Anlegen eines Layout MockUps
+Ziel:
+
+
+Anforderungen:
+RA-08 abgeschlossen
+Mögliche optische Umsetzung besprochen
+Beschreibung des Layouts schriftlich festhalten
