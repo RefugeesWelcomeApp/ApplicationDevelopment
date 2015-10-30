@@ -1,0 +1,159 @@
+RA-17-Arbeitsmethode
+
+Aim:
+- define the standard workflow for this project
+- presentation of the workflow
+- creation of a document, so everybody can lookup the process and knows general conditions & organisation workflow
+- everybody has to accept this working process and stick to it
+
+Requirements:
+
+- analysis options
+- choose the best of the possible options (assessment)
+- creation uml diagramm
+- definition of groups, meetings and tools, which have to be used (github, storyboard)
+- definition meeting contents
+- process design when problems or progress appears
+- definition of further needed processes
+- 30 minutes presentation with round of voting and stick to assessment meeting suggestions!
+
+
+________________________________________________________________________________________________________________________
+Solution:
+
+
+definition wörter:
+
+Planning: vorstellung der userstories, rating der us, und verteilung
+review: vorstellung der lösung zu den verteilten userstories, abnahme durch die gesamte gruppe und bei nicht abnahme was verbessert werden muss
+retro: jeder darf seine meinung äußern was gut und was schlecht läuft, dann wird in der gruppe entschieden was als erstes angegangen wird (voting)
+
+
+possible solutions:
+
+Storyboardhandling:
+1. jeder kann alles bearbeiten -> gefahr des zerstörens der excel zu groß
+2. ein eingeschränkter kreis darf bearbeiten, einsehen jeder
+3. einer kann bearbeiten -> unrealistisch
+4. jeder kann! alles bearbeiten, darf aber nur sein eigenes. Wenige (Scrum master) darf alles bearbeiten
+
+Voting:
+2. 2
+4. 1
+Begründung: 
+
+
+Meetings alle:
+1. keine meetings die regelmäßig stattfindne, kein planning und kein review
+2. ein regelmäßiges meeting, planning, review und retro
+3. tägliche meetings (daily) als statusmeeting, ein planning, review und retro
+4. adhoc meetings nach bedarf
+5. ein planning, review, retro und wenn benötigt adhoc meetings, welche angekündigt werden.
+6. 1 wöchtentliches Meeting mit Planing & Review, retro bei bedarf, adhoc meetings
+
+Voting:
+6. 3
+
+
+meetings in den gruppen:
+1. freie handhabe
+2. dayli
+3. Freie Handhabe, aber mind. 1 Gruppenmeeting mit Retro
+4. Freie Handhabe, 1 Gruppenmeeting mit Retro wenn benötigt
+
+VOting:
+4. 3
+
+Gruppendefinition:
+1. dev gruppe (wie definiert)
+2. design gruppe
+3. research gruppe
+4. scrum master(s) JP? &?
+5. anfo team: Jasmin Clos, Stefan Ludowicy, Philipp Staats, JP Klodzinski, Nico Remus, Tobi Karhoff
+
+Voting:
+ja: 3
+nein: 
+
+
+Gruppenaufgaben:
+1. Dev gruppe+Philipp Staats - Prüfung Quellcode Funktion, Hilfe wenn einer aus anderem Team bei Entwicklungsaufgaben Probleme hat
+2. Design Gruppe - 
+3. Research Gruppe - 
+4. Scrum masters - Storyboard pflegen
+5. anfo team - Anforderungen definieren
+
+Voting:
+Ja: 
+Nein: 2
+enthaltung: 1
+
+
+Vorgehen probleme:
+1. statusmeeting
+2. gruppenleiter
+3. scrum master
+4. nichts tun
+5. selbst eintragen
+6. Prio: 2,3
+
+Voting:
+6. 3
+
+VOrgehen fortschritt:
+1. statusmeeting
+2. gruppenleiter
+3. scrum master
+4. nichts tun
+5. selbst eintragen
+6.idee fortschritt und probleme gleiches vorgehen
+
+VOting:
+6.3
+
+weitere prozesse?:
+1. Abstimmung bei Meinungsdifferenzen?
+2.
+
+
+Meinungsdifferenzen:
+1. gruppenleiter
+2. scrum master
+3. anfo team
+4. Prio: 1,3,2
+
+Voting:
+4.3
+
+
+Dokumentationsüberprüfung:
+1. Scrum master prüft DOku vorhandenheit
+2. anfo team prüft doku vorhandenheit
+
+Voting:
+2. 3
+
+
+Tools:
+1. Github!
+2. google docs/drive temporär
+3. java, eclipse (intelliy)
+4. apache tomcat
+5. email, whatsapp
+6. UML -> enterprise architekt
+
+Voting:
+alles: 99
+
+
+
+
+
+
+
+
+
+
+
+
+
