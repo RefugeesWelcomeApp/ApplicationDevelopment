@@ -1,0 +1,10 @@
+RA-21-Forum anlegen
+
+Ziel:
+Ein Funktionstüchtiges Forum steht bereit
+
+ANforderungen:
+- die Forumssoftware unterstützt unser Authtentifizierungsprozess
+- das Forum ist performant, entspricht aktuellsten Sicherheitsstandards und ist kostenneutral
+- Setup liegt soll ins Github gelegt werden
+- ...

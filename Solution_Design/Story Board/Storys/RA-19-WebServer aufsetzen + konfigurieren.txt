@@ -1,0 +1,7 @@
+RA-19-WebServer aufsetzen + konfigurieren
+
+Ziel:
+Ein funktionsbereiter Webserver ist aufgesetzt, vollständig konfiguriert und die Setup Datei liegt im GIthub
+
+ANforderungen:
+- ...

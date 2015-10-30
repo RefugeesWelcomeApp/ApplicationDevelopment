@@ -1,0 +1,13 @@
+RA-26-Behördenkontaktdaten zu den jeweiligen Standorten
+
+Ziel:
+- eine vollständige Liste von Behördenkontakten welche in der Nähe von Flüchtlingsaufnahmezentren liegen
+
+Anforderungen:
+
+- Telefonummer
+- Adresse
+- Aufgabe
+- Open map link
+- Ansprechpartner?
+- ...

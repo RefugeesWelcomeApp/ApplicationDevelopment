@@ -1,1 +1,13 @@
+RA-15-Findung einer einfach integrierbaren Wiki-Lösung
+
+Ziel:
+- Eine Wikilösung welche unsere Anforderungen erfüllt
+
+Anforderungen:
+- kostenneutral
+- performant
+- einfache Bedienung
+- funktioniert problemlos mit unseren restlichen Applikationsmodulen
+- Sicherheitsstandards erfüllt
+- Support für die nächsten Jahre sichergestellt (soweit als möglich)
 

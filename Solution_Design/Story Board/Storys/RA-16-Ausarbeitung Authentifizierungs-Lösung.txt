@@ -1,1 +1,12 @@
+RA-16-Ausarbeitung Authentifizierungs-Lösung
 
+Ziel:
+
+- Erstellung ein Design für eine Authentifizierungslösung, welches alle Anforderungen erfüllt
+
+Anforderungen:
+- hohe Sicherheit
+- Umgehung ausgeschlossen
+- ein Account für das Wiki, das Forum und die Website
+- Datenaustausch der sensiblen Daten nur mit aktueller Verschlüsselungstechnologie
+- ...

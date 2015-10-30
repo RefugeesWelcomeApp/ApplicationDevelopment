@@ -1,0 +1,11 @@
+RA-23-Gesundheitssystem Kostenlose Ärzte Wo finde ich einen in meiner Nähe
+
+Ziel:
+- Eine so vollständig wie mögliche Liste der kostenlosen Ärzte unseres Gesundheitssystems
+
+Anforderungen:
+- Name des Arztes/Arztpraxis
+- Adresse
+- Spezialgebiet
+- Open Map verknüpfung link (falls vorhanden)
+- ...

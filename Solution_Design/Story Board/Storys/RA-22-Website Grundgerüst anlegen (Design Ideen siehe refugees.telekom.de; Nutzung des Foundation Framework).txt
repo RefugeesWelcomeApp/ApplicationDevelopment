@@ -1,0 +1,8 @@
+RA-22-Website Grundgerüst anlegen (Design Ideen siehe refugees.telekom.de; Nutzung des Foundation Framework)
+
+Ziel:
+- ...
+
+ANforderungen:
+
+- ...

@@ -1,0 +1,8 @@
+RA-25-Ausarbeitung grundlegende Lösungsarchitekturr
+
+Ziel:
+- eine grobe Lösungsarchitektur steht bereit
+- ...
+
+Anforderungen:
+- ...

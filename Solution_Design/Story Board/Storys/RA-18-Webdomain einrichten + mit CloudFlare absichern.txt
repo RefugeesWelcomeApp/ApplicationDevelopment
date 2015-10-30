@@ -1,0 +1,8 @@
+RA-18-Webdomain einrichten + mit CloudFlare absichern
+
+Ziel:
+
+- die Webdomain ist eingerichtet und nach aktuellen und unserem Standard konform abgesichert
+
+Anforderungen:
+-
