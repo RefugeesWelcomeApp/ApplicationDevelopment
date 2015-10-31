@@ -1,0 +1,19 @@
+RA-27-Orga Refinement - Scope, Analyse and Definition
+
+Aim:
+- refinement of protocols for the scrum method
+
+Requirements:
+
+- New file structure
+- not merged version in meeting protocols
+- ea file for scope, analyse and definition
+______________________________________________________
+
+Solution:
+- reorder old files (meeting protocols)
+- contact with N.R. to de-merge scope, analyse and definition from first meeting protocol
+- redesign remerged data to complete requirements for scrum method
+- complete missing data
+- Create Review with SM
+- Create meeting with SM to setting creating periode/rule for upcoming scope, analyse and definition protocols
