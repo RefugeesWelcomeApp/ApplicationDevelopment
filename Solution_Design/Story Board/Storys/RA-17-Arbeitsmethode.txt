@@ -22,18 +22,18 @@ ________________________________________________________________________________
 Solution:
 
 
-definition wörter:
+Definition wörter:
 
-Planning: vorstellung der userstories, rating der us, und verteilung
-review: vorstellung der lösung zu den verteilten userstories, abnahme durch die gesamte gruppe und bei nicht abnahme was verbessert werden muss
-retro: jeder darf seine meinung äußern was gut und was schlecht läuft, dann wird in der gruppe entschieden was als erstes angegangen wird (voting)
+Planning: Vorstellung der Userstories, Rating der Userstories und Verteilung
+Review: Vorstellung der Lösung zu den verteilten Userstories, Abnahme durch die gesamte Gruppe und bei nicht Abnahme was verbessert werden muss
+Retro: jeder darf seine Meinung äußern was gut und was schlecht läuft, dann wird in der Gruppe entschieden was als erstes angegangen wird (voting)
 
 
 possible solutions:
 
 Storyboardhandling:
-1. jeder kann alles bearbeiten -> gefahr des zerstörens der excel zu groß
-2. ein eingeschränkter kreis darf bearbeiten, einsehen jeder
+1. jeder kann alles bearbeiten -> Gefahr des Zerstörens der Excel zu groß
+2. ein eingeschränkter Kreis darf bearbeiten, einsehen jeder
 3. einer kann bearbeiten -> unrealistisch
 4. jeder kann! alles bearbeiten, darf aber nur sein eigenes. Wenige (Scrum master) darf alles bearbeiten
 
@@ -44,57 +44,55 @@ Begründung:
 
 
 Meetings alle:
-1. keine meetings die regelmäßig stattfindne, kein planning und kein review
-2. ein regelmäßiges meeting, planning, review und retro
-3. tägliche meetings (daily) als statusmeeting, ein planning, review und retro
-4. adhoc meetings nach bedarf
-5. ein planning, review, retro und wenn benötigt adhoc meetings, welche angekündigt werden.
-6. 1 wöchtentliches Meeting mit Planing & Review, retro bei bedarf, adhoc meetings
+1. keine meetings die regelmäßig stattfinden, kein Planning und kein Review
+2. ein regelmäßiges meeting, Planning, Review und Retro
+3. tägliche meetings (daily) als Statusmeeting, ein Planning, Review und Retro
+4. adhoc meetings nach Bedarf
+5. ein Planning, Review, Retro und wenn benötigt adhoc meetings, welche angekündigt werden.
+6. 1 wöchtentliches Meeting mit Planing & Review, Retro bei Bedarf, adhoc meetings
 
 Voting:
 6. 5
 
 
 meetings in den gruppen:
-1. freie handhabe
+1. freie Handhabe
 2. dayli
-3. Freie Handhabe, aber mind. 1 Gruppenmeeting mit Retro
+3. freie Handhabe, aber mind. 1 Gruppenmeeting mit Retro
 4. Freie Handhabe, 1 Gruppenmeeting mit Retro wenn benötigt
 
-VOting:
+Voting:
 4. 5
 
 Gruppendefinition:
-1. dev gruppe (wie definiert)
-2. design gruppe
-3. research gruppe
-
-
-4. scrum master(s) JP? & Stefan?
-5. anfo team: Jasmin Clos, Stefan Ludowicy, Philipp Staats, JP Klodzinski, Nico Remus, Tobi Karhoff
+1. dev Gruppe (wie definiert)
+2. design Gruppe
+3. research Gruppe
+4. Scrum Masters JP & Stefan
+5. Anfo Team: Jasmin Clos, Stefan Ludowicy, Philipp Staats, JP Klodzinski, Nico Remus
 
 Voting:
-ja:4
-nein: 1
+ja:5
+nein: 0
 
 
 Gruppenaufgaben:
-1. Dev gruppe+Philipp Staats - Prüfung Quellcode Funktion, Hilfe wenn einer aus anderem Team bei Entwicklungsaufgaben Probleme hat
+1. Dev Gruppe + Philipp Staats - Prüfung Quellcode Funktion, Hilfe wenn einer aus anderem Team bei Entwicklungsaufgaben Probleme hat
 2. Design Gruppe - 
 3. Research Gruppe - 
-4. Scrum masters - Storyboard pflegen
-5. anfo team - Anforderungen definieren
+4. Scrum Masters - Storyboard pflegen
+5. Anfo Team - Anforderungen definieren
 
 Voting:
 Ja: 
 Nein: 3
-enthaltung: 1
+Enthaltung: 1
 
 
 Vorgehen probleme:
-1. statusmeeting
-2. gruppenleiter
-3. scrum master
+1. Statusmeeting
+2. Gruppenleiter
+3. Scrum Master
 4. nichts tun
 5. selbst eintragen
 6. Prio: 2,3
@@ -102,26 +100,26 @@ Vorgehen probleme:
 Voting:
 6. 5
 
-VOrgehen fortschritt:
-1. statusmeeting
-2. gruppenleiter
-3. scrum master
+Vorgehen Fortschritt:
+1. Statusmeeting
+2. Gruppenleiter
+3. Scrum Master
 4. nichts tun
 5. selbst eintragen
-6.idee fortschritt und probleme gleiches vorgehen
+6. Idee Fortschritt und Probleme gleiches Vorgehen
 
-VOting:
+Voting:
 6.5
 
-weitere prozesse?:
+weitere Prozesse?:
 1. Abstimmung bei Meinungsdifferenzen?
-2. Gennerelle Rückmeldung Neutral bei NIco Remus, ansonsten bei Team/Gruppenlead->Scrum->Projektleiter
+2. Gennerelle Rückmeldung Neutral bei Nico Remus, ansonsten bei Team/Gruppenlead->Scrum->Projektleiter
 
 
 Meinungsdifferenzen:
-1. gruppenleiter
-2. scrum master
-3. anfo team
+1. Gruppenleiter
+2. Scrum Master
+3. Anfo Team
 4. Prio: 1,3,2
 
 Voting:
@@ -129,9 +127,9 @@ Voting:
 
 
 Dokumentationsüberprüfung:
-1. Scrum master prüft DOku vorhandenheit
-2. anfo team prüft doku vorhandenheit
-3. Scrum prüft ob vorhanden, anfo prüft ob gut
+1. Scrum Master prüft Doku Vorhandenheit
+2. Anfo Team prüft Doku Vorhandenheit
+3. Scrum prüft ob vorhanden, Anfo prüft ob gut
 
 Voting:
 2. 1
