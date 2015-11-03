@@ -134,8 +134,8 @@ Dokumentationsüberprüfung:
 3. Scrum prüft ob vorhanden, anfo prüft ob gut
 
 Voting:
-2. 3
-3. 2
+2. 1
+3. 4
 
 Tools:
 1. Github!
