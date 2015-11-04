@@ -1,0 +1,10 @@
+RA-28-Open Streetmap Integration
+
+Ziel:
+- Karte mit bestimmten Inhalten einblenden lassen (points of interest)
+- Orte nach Authentifizierung zur Karte hinzufügen, löschen, bearbeiten können
+
+
+Anforderung:
+- Bereits in Open Streetmaps hinterlegte Orte müssen eingeblendet werden können
+- Ausformulierung nach Fertigstellung, um Inhalte in Abschlussdokument aufnehmen zu können

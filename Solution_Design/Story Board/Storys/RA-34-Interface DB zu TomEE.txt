@@ -1,0 +1,5 @@
+RA-34-Interface DB zu TomEE
+
+Ziel:
+- fertig konfigurierte, für Entwickler einfach zu nutzende 
+Anbindung der DB an den TomEE Application Server

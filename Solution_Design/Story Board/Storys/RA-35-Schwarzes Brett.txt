@@ -1,0 +1,10 @@
+RA-35-Schwarzes Brett
+
+Ziel:
+
+- komplettes Lösungsdesign zum "Schwarzem Brett je Standort" erstellen
+
+Anforderungen:
+- Vereine können die Bearbeiten
+- Umsetzung in Wiki Seiten
+- übersichtlich

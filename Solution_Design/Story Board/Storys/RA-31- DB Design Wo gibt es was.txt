@@ -1,0 +1,7 @@
+RA-31- DB Design Wo gibt es was
+
+Ziel:
+- an das Lösungsdesign von RA-29 angepasstes Datenbank Design
+
+Anforderungen:
+- Leicht pflegbar, performant, normalisiert
