@@ -18,7 +18,7 @@ Requirements:
 - 30 minutes presentation with round of voting and stick to assessment meeting suggestions!
 
 
-________________________________________________________________________________________________________________________
+______________________________________________________________________________________________________________________
 Solution:
 
 
@@ -149,14 +149,30 @@ alles: 99+1
 
 Vorgehen:
 
+Einmal in der Woche Planning mit Review und Retro (optional, falls benötigt). Im Planning werden fertig gestellte Stories vorgestellt und Fragen diesbezüglich beantwortet. Das Review (welches normalerweise am Anfang des Termins stattfindet) dient der Vorstellung der in der vorherigen Woche verteilten Aufgaben/Stories und deren Abnahme. Die Abnahme findet gemeinschaftlich statt - jeder muss zustimmen sonst wird die Storie abgelehnt. 
+Falls benötigt um Probleme/Fragen oä. zu klären, können "ad hoc" Meetings aufgesetzt werden, in einem entsprechenden Teilnehmerkreis. An diesen Meetings sollen nur diejenigen teilnehmen, die tatsächlichen benötigt werden.
 
+Die Stories und deren Fortschritt werden in dem sogenannten Storie-Board gepflegt. Dort haben alle lesenden Zugriff, jedoch nur ein kleiner Kreis (Anfo Team) schreibenden. Wenn ein Fortschritt in einer Storie zu verzeichnen ist, bzw. Sie fertiggestellt wurde, wird dies dem Anfo Team mitgeteilt, damit dieses Team den Fortschritt pflegen kann.
 
+Die Vorhandenheit der Dokumentation wird von den Scrum Mastern überprüft, eine inhaltliche Prüfung geschieht im Anforderungsmanagement Team. Dies ist unabhängig vom Review.
 
+Darüberhinaus wird es optional eine wöchentliche Besprechung innerhalb der Gruppen geben. Der Inhalt dieser Meetings ist nicht vorgegeben. Denkbar wäre ein internes, ausführlicheres Retro.
 
+Wenn Probleme auftreten, dann sind diese kund zu tun. Als erstes wird der Team bzw. Gruppenleiter verständigt. Falls dieser aus irgendwelchen Gründen keine Lösung findet bzw. aus bestimmten Gründen dazu nicht angesprochen werden kann, dann fällt das Problem in den Zuständigkeitsbereich der gewählten Scrum Master (Jean-P. Klodzinski und Stefan Ludowicy)
 
+Bei Meinungsdifferenzen entscheiden die Gruppenleiter. Wenn sich dadurch keine Lösung finden lässt, wird es an das Anforderungsmanagment Team eskaliert. Als letzte Maßnahme liegt die Entscheidungsgewalt bei den Scrum Master.
 
+Für die Erstellung der Lösung der zugeteilten Stories sind folgende Tools entsprechend Ihrer Anwendungsgebiete zu verwenden:
+1. Github
+2. Google Docs und Google Drive als temporärer Zwischenspeicher
+3. Java,Eeclipse (Intellij) für die Java Programmierung
+4. Apache TomEE als Application und Web Server, MariaDB als DB-Server
+5. E-Mail/Whatsapp/Skype/Facebook/Telefon/Webex/whatever als Kommunikationsmittel
+6. UML Erstellung mittels Enterprise Architekt (eine Anleitung zur Installtion findet sich im Google Drive)
 
-
-
-
-
+Gruppendefinition:
+1. dev Gruppe (wie definiert)
+2. design Gruppe (wie definiert)
+3. research Gruppe (wie definiert)
+4. Scrum Masters Jean-P. Klodzinski & Stefan Ludowicy 
+5. Anfo Team: Jasmin Clos, Stefan Ludowicy, Philipp Staats, JP Klodzinski, Nico Remus
