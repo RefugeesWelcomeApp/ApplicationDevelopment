@@ -5,6 +5,8 @@ Ziel:
 - komplettes Lösungsdesign zum "Schwarzem Brett je Standort" erstellen
 
 Anforderungen:
-- Vereine können die Bearbeiten
+- Vereine und Betreiber der lokalen Aufnahmeeinrichtungen können die Bearbeiten
 - Umsetzung in Wiki Seiten
 - übersichtlich
+
+Solution zugewiesen an Nico Remus

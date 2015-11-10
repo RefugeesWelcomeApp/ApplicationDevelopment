@@ -11,3 +11,5 @@ Anforderungen:
 - Sicherheitsstandards erfüllt
 - Support für die nächsten Jahre sichergestellt (soweit als möglich)
 
+Solution von Stefan Ludowicy:
+MediaWiki mit VisualEditor + MediaWiki API

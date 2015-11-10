@@ -2,7 +2,10 @@ RA-24-Linksammlung zu anderen Hilfeseiten und Funktionalitäten
 
 Ziel:
 - eine Linksammlung zu anderen Websites mit ähnlichem Inhalt und die Genehmigung dieses auf unserer Website zu veröffentlichen (wenn benötigt)
+(- Linksammlung je Standort in Wiki-Seiten)
 
 Anforderungen:
 - Seiten sind nicht rechtsradikal, haben keine negativen Hintergründe, sind sicher und halbwegs aktuell
 -...
+
+Solution: 

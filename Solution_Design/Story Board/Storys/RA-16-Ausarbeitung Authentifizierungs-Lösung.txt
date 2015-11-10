@@ -14,3 +14,6 @@ Anforderungen:
 - Ein Account für alles
 - Datenaustausch der sensiblen Daten nur mit aktueller Verschlüsselungstechnologie
 - Erstellung Benutzergruppen (eine Gruppe pro Standort?)
+
+Solution:
+Zugewiesen an Jasmin Clos, Unterstützung von Stefan Ludowicy

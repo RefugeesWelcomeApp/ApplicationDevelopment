@@ -6,3 +6,6 @@ Anforderungen:
 RA-08 abgeschlossen
 Mögliche optische Umsetzung besprochen
 Beschreibung des Layouts schriftlich festhalten
+
+
+Solution von Jasmin 20%

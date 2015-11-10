@@ -5,3 +5,6 @@ Ein funktionsbereiter Webserver ist aufgesetzt, vollständig konfiguriert und die
 
 ANforderungen:
 - ...
+
+Solution von Stefan Ludowicy
+Status: 70%

@@ -6,3 +6,6 @@ Ziel:
 
 Anforderungen:
 -
+
+Solution von Stefan Ludowicy
+Status: 100%

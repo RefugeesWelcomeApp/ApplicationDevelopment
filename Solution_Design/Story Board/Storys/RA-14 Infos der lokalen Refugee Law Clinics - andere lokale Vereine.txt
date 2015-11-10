@@ -8,3 +8,5 @@ Anforderungen:
 - Wo und wie kann man diese finden / kontaktieren
 - Muss ich Dinge beachten? Formulare etc.
 - Übersichtliche Darstellung größerer Vereine in Ballungsgebieten
+
+Solution von Christoph 90%

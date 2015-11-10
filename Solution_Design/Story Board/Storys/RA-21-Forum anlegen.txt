@@ -8,3 +8,5 @@ ANforderungen:
 - das Forum ist performant, entspricht aktuellsten Sicherheitsstandards und ist kostenneutral
 - Setup liegt soll ins Github gelegt werden
 - ...
+
+Pausiert, da rechtliche Punkte

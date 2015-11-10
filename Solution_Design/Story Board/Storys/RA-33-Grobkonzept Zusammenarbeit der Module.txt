@@ -9,3 +9,5 @@ und die Webpage für den ANwender zusammenbaut
 
 Anforderungen:
 - to be defined
+
+Solution zugewiesen an Aras Mousavi ; Unterstützung von Stefan Ludowicy

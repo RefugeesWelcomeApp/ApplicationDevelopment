@@ -6,3 +6,6 @@ erklärung der Formularkausalität
 Anforderungen:
 Welches Formular brauche ich wann womit wofür
 Überblick für die Formularlandschaft
+
+
+Solution: Eric 80%

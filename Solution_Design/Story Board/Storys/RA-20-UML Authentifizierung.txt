@@ -5,3 +5,5 @@ ein vollständiges UML Diagramm zum benutzten Authentifizierungsprozess
 
 Anforderungen:
 UML konform
+
+Solution von Jasmin Clos

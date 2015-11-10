@@ -6,3 +6,5 @@ Ziel:
 ANforderungen:
 
 - ...
+
+Folgeauftrag für Team Websitenstruktur
