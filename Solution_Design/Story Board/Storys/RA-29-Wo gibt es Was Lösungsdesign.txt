@@ -1,0 +1,14 @@
+RA-29-Wo gibt es Was Lösungsdesign
+
+Ziel:
+
+- komplettes Lösungsdesign für die Funktion "Wo gibt es was?"
+- Liste mit Suchfunktionen zur Anzeige wo es was gibt
+- Bspw: Nutzer wählt Nahrungsmittel aus, Ergebnis: Supermarkt + Maps Anzeige
+	Nutzer wählt Werkzeuge aus, Ergebnis: Baumärkte + Maps Anzeige 
+- UML
+- Inhaltliche Liste mit entsprechenden Zuordnungen erstellen
+
+Anforderungen:
+- sehr leicht verständlich und bedienbar
+- leicht zu pflegen (Daten hinzufügen, entfernen etc.)-> DB

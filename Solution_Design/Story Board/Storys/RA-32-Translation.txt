@@ -1,0 +1,10 @@
+Ra-32-Translastion
+
+Ziel:
+- Die wichtigsten Sätze die man in Deutschland braucht auflisten (z.B: Bitte, Danke, Wie geht es Ihnen etc.)
+- Deutsch <-> eigener Sprache
+
+Anforderung:
+- Nutzung freier/Öffentlicher Datenbestände
+- Nutzng von Datenbanktabellen, normalisiert
+- alternativ: Optimierung der Lösung durch Wikiseite möglich anstelle Datenbankanwendung (Übersichtlichkeit?)

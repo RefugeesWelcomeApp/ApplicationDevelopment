@@ -2,11 +2,15 @@ RA-16-Ausarbeitung Authentifizierungs-Lösung
 
 Ziel:
 
-- Erstellung ein Design für eine Authentifizierungslösung, welches alle Anforderungen erfüllt
+- Erstellung Solution Design für Authentifizierungslösung
+- UML
+- Lokale Vereine können authentifiziert werden und erlangen besondere Benutzerrechte(Bearbeitung Lokaler Wikiseiten)
+- Klärung auf welchen Bereich wer Zugriff haben soll
+
 
 Anforderungen:
 - hohe Sicherheit
 - Umgehung ausgeschlossen
-- ein Account für das Wiki, das Forum und die Website
+- Ein Account für alles
 - Datenaustausch der sensiblen Daten nur mit aktueller Verschlüsselungstechnologie
-- ...
+- Erstellung Benutzergruppen (eine Gruppe pro Standort?)
