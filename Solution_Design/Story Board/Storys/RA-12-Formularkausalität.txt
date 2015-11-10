@@ -1,4 +1,4 @@
-RA-12-Formularkausalität
+﻿RA-12-Formularkausalität
 
 Ziel:
 erklärung der Formularkausalität
@@ -7,5 +7,9 @@ Anforderungen:
 Welches Formular brauche ich wann womit wofür
 Überblick für die Formularlandschaft
 
-
+----------------------------------------------------
 Solution: Eric 80%
+
+- Beschreibung wie gearbeitet
+- Deine Lösung (ohne Bilder)
+
