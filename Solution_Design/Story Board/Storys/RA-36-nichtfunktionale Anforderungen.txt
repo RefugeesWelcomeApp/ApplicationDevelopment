@@ -2,7 +2,7 @@ RA-36-nichtfunktionale Anforderungen
 
 nichtfunktionale Anforderungen:
 
-- Einhaltung Telekom PSA Securityvorgaben
+- Einhaltung Telekom PSA Securityvorgaben (siehe https://www.telekom.com/psa)
 - keine sensiblen Personenbezogenen Daten speichern (Datenschutz)
 - hohe Performance der Gesamtlösung (Ziel: gleiche Geschwindigkeit wie vergleichbare Massenlösungen oder besser)
 - Skalierbarkeit, Erweiterbarkeit und Wartbarkeit des Systems für erwartete Nutzung und Betrieb der Plattform muss gewährleistet werden

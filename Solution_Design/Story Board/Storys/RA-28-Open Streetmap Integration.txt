@@ -8,3 +8,5 @@ Ziel:
 Anforderung:
 - Bereits in Open Streetmaps hinterlegte Orte müssen eingeblendet werden können
 - Ausformulierung nach Fertigstellung, um Inhalte in Abschlussdokument aufnehmen zu können
+
+Solution zugewiesen an Sheldon Jesudasan und Sebastian Treske
