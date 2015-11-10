@@ -1,4 +1,4 @@
-RA-06-Rechtliches Einmaleins
+﻿RA-06-Rechtliches Einmaleins
 
 Ziel:
 Abbildung der Rechtlichen Grundlage
@@ -7,3 +7,18 @@ Anforderungen:
 Prinzip der Rechtsfindung in DE in 100 Wörtern
 was darf ich (was nicht) / 10 Gebote(mal modern) verknüpfung zu Gesetzen
 StVo in kurzform
+
+Solution:
+„Ein-Mal-Eins“ des Rechts in Deutschland
+[Oder die modernen „10 Gebote“]
+01.	Alle haben die gleichen Rechte, auch Kinder, Frauen und andere
+02.	Du darfst die Ämter nicht belügen (vor allem das Finanzamt!) 
+03.	. Du sollst nichts stehlen oder kaputt machen
+04.	Du sollst niemanden verletzen, anspucken oder ähnliches
+05.	Bei Problemen, Verletzungen oder Unfällen Notruf machen
+06.	Du sollst niemanden belästigen
+07.	Jeder darf seine Religion ausüben und frei wählen
+08.	Ämter und Polizei helfen dir 
+09.	Jeder darf zur Schule, auch Mädchen 
+10.	Immer wieder Nachfragen, einer kann dir immer helfen
+
