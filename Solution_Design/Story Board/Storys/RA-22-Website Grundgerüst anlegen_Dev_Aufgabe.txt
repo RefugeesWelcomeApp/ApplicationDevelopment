@@ -5,6 +5,6 @@ Ziel:
 
 ANforderungen:
 
-- ...
+- Design Ideen siehe refugees.telekom.de; Nutzung des Foundation Framework
 
 Folgeauftrag für Team Websitenstruktur

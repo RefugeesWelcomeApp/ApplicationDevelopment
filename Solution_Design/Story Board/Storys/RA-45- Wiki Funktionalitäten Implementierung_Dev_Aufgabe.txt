@@ -1,0 +1,8 @@
+RA-45- Wiki FUnktionalitäten Implementierung_Dev_Aufgabe
+
+Ziel
+- Implementierung aller benötigten Funktionen welche benötigt werden
+- Wikimedia Lösung konfiguriert
+
+Anforderungen
+- ...

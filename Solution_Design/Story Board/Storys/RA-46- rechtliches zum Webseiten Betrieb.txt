@@ -1,0 +1,11 @@
+RA-46- rechtliches zum Webseiten Betrieb
+
+Ziel:
+- Klärung der rechtlichen Punkte
+- Formulierung der rechtlichen Punkte
+
+Anforderungen:
+- Impressum
+- weiterer Notwendiger Webseiteninhalte
+- Haftung für Webseiteninhalte von dritten (wir als Hostingprovider)
+- ...

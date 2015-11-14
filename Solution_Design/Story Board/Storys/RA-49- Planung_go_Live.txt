@@ -1,0 +1,8 @@
+RA-49- Planung_go_live
+
+Ziel:
+- ...
+- Findung von "early bird" Vereinen und Testern
+
+Anforderungen:
+- ...

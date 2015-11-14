@@ -1,0 +1,13 @@
+RA-47-Benutzerfreundlichkeit_Analyse_Solution_Design_Visual_Design
+
+Ziel:
+- Nachprüfung der Benutzerfreundlichkeit der Website
+- Behebung von auftauchenden Problemen
+- 
+
+Anforderungen:
+- Team aus >3 Personen
+- 
+
+OP:
+- interne Umfrage? Hochschulumfrage?

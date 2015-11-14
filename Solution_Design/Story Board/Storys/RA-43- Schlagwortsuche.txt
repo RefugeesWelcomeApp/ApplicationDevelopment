@@ -1,0 +1,10 @@
+RA-43- Schlagwortsuche
+
+Ziel:
+- Implementierung einer funktionierenden Suchfunktion
+
+
+Anforderungen:
+- Nutzung der Wikimedia API
+- UML
+- ...

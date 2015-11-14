@@ -1,0 +1,14 @@
+RA-42- Website Design_Visual Design
+
+Ziel:
+- fertiges Visual Design (komplett, konform zur Struktur der Website)
+- Implementierung mit Beispielinhalt als Website
+
+Anforderungen:
+- HTML 5
+- Standardisierte CSS
+- responsive Design
+- ...
+
+OP:
+- Umsetzung mit Foundation Framework?

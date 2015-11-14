@@ -1,0 +1,10 @@
+RA-44- Wiki Funktionalitäten_Analyse
+
+Ziel:
+
+- Prüfung das alle wichtigen Funktionen durch das Wiki abgebildet werden können
+
+Anforderungen:
+- Schreibtischtest
+- UML
+- ...

@@ -1,5 +1,15 @@
 RA-41 Bereitstellung Flaggen und Symbole
 
 Ziel:
+- Flaggen
+- Logo
+- Icons
+- Grafiken für das Weblayout
+- Kategorien Grafiken
+- ...
 
 Anforderungen:
+- gut "zoombar"
+- Seriös
+- Telekom konform
+
