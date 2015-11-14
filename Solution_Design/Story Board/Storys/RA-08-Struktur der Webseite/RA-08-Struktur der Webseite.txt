@@ -1,0 +1,94 @@
+﻿RA-08-Struktur der Webseite
+
+Ziel:
+Eine erste Vorstellung der Struktur der Website. Keine finale Version erwartet.
+
+Anforderung:
+- Baumstruktur (oder vergleichbares) für die Verknüpfungen/Vertiefungen
+- Welche Funktion wird wo gesehen
+- MokUp der groben Struktur erstellen (https://docs.google.com/presentation/d/1riZU-1kVhvNQE0vPFkipEiCkUyzk537J87V0gesxajw/edit?usp=sharing)
+
+Solution:
+Jean, Philipp, Aras, Eric
+
+_______________________________________________________________________________________________________________________________________
+
+Vertiefung Wiki:
+
+Wiki Struktur
+
+Allgemein Deutschland						->Startseite
+	Formulare (Getting Started)
+		Asylantrag
+			Was bei Ablehnung
+	Das Leben in Deutschland
+		Rechtliches einmaleins
+	Welche Hilfen kann ich in Deutschland erhalten
+		Hartz4
+		Wohngeld
+		Kindergeld
+		
+Bundesländer							-> Übersichtsseite
+	Hessen							-> Startseite mit ersten Infos und weiterführenden Links
+	Berlin
+	Bundesland1 -> Startseite
+		Flüchtlingsunterkünfte
+		Vereine
+			Aktuelles
+			allgemeine Infos
+				was wir machen
+				wer wir sind
+				warum etc 
+				vom verein bestimmt
+		Aktuelles(schwarzes Brett)
+		Freizeitgestaltung
+		Formulare
+		Städte
+			Infos
+			Formulare(spezielle)
+
+
+Website Struktur:
+
+Start
+Auswahl Herkunftsland
+Auswahl Sprache wenn mehrere vorhanden
+Auswahl Standort
+
+Startseite	->	Erste Schritte, Über uns
+
+Menüpunkte:
+Formulare, Das Leben in Deutschland, Wo kann ich was kaufen?, in meiner Nähe, Impressum etc.
+
+Formulare
+	chronologische Sortierung (was braucht der Flüchtling als erstes)
+	Erstantrag
+	Registrierung
+	weitere Formulare (Versicherung, Arbeit, etc)
+	was passiert bei Ablehnung
+
+Das Leben in Deutschland
+	Rechtliches 1*1
+	StVO
+	wichtige Nummern(Hauptpunkt?-> Abstimmung)
+	schwarzes Brett (wenn Standort gewählt, standortspezifisch, sonst noch einmal wählen)
+	Knigge
+	allg. Beschreibung Deutsche
+	Umrechnungsrechner (Währung)
+	Gesundheitsstandard bzw. Besonderheiten
+	Bildung Sprache Arbeit Wohnen
+
+Wo finde ich was?
+	Bildchen mit dem verschiedenen Themengebieten (Bücher, Essen, Technik, Werkzeuge, Hygiene, etc)
+		Bücher: Zeitung, Fachliteratur
+			Wo? Laden Karte
+
+In meiner Nähe: -> wiki, wenn Standort, dann Dort, sonst allgemein.
+
+
+		
+	
+
+
+
+
