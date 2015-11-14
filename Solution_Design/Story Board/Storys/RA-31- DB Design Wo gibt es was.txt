@@ -2,6 +2,9 @@ RA-31- DB Design Wo gibt es was
 
 Ziel:
 - an das Lösungsdesign von RA-29 angepasstes Datenbank Design
+- HINWEIS: Anschriften sollen möglichst nicht gepflegt werden -> Aufgabe von Open Streetmap
 
 Anforderungen:
-- Leicht pflegbar, performant, normalisiert
+- Leicht pflegbar
+- normalisiert
+- nichtfunktionale Anforderungen erfüllt

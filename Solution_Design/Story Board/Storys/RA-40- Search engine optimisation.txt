@@ -1,0 +1,7 @@
+RA-40-Search engine optimisation
+
+Ziel:
+- Regelwerk finden und anwenden um möglichst gut für eine Suchengine die Website zu optimieren
+
+Anforderungen:
+- Gute Bewertung laut "Seitwert.de"

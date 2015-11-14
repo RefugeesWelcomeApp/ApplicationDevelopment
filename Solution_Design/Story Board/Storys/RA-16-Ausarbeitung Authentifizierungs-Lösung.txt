@@ -14,6 +14,7 @@ Anforderungen:
 - Ein Account für alles
 - Datenaustausch der sensiblen Daten nur mit aktueller Verschlüsselungstechnologie
 - Erstellung Benutzergruppen (eine Gruppe pro Standort?)
+- Benutzergruppe: Administrator mit Berechtigung für DB Pflege, ...
 
 Solution:
 Zugewiesen an Jasmin Clos, Unterstützung von Stefan Ludowicy

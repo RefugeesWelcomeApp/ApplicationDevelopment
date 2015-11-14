@@ -1,0 +1,10 @@
+RA-39-Open Streetmap Schnittstellen Implementierung
+
+Ziel:
+- Das Interface um die Open Streetmap benutzen zu können vollständig in unsere Anwendung implementiert
+
+
+
+Anforderungen:
+- gute Skalierbarkeit
+- nichtfunktionale Anforderungen erfüllt

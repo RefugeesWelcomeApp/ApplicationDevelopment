@@ -1,4 +1,4 @@
-RA-28-Open Streetmap Integration
+RA-28-Open Streetmap Integration_Solution Design
 
 Ziel:
 - Karte mit bestimmten Inhalten einblenden lassen (points of interest)

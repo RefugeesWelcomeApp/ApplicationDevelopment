@@ -1,0 +1,14 @@
+RA-38-Wo gibt es Was Dev Umsetzung
+
+Ziel:
+- fertig Implementierte Umsetzung des Solution Design
+- Umsetzung des Datenbankdesigns
+- Befüllung der Datenbank mit den definierten Inhalten
+
+
+Anforderungen:
+- nichtfunktionale Anforderungen müssen eingehalten werden
+- nur über Application Server änderbar (DB)
+- Webansicht um den DB Inhalt anpassen/befüllen zu können
+- Nutzung von fertigem/offenen Quellcode
+- ...

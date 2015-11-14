@@ -1,0 +1,14 @@
+RA-37-Wo gibt es Was Dateninhalt
+
+Ziel:
+- eine vollständige Liste der Materialien mit einer Zuordnung zu den Kategorien und Einkaufsläden
+- Liste von: Materialien, Kategorien und Shops muss geliefert werden
+- Bsp: Nudeln - Nahrung - Rewe
+
+
+Anforderungen:
+- angepasst an vorhandene Kategorien von Openstreetmap
+- angepasst an das DB Design
+- Bilder zu den Kategorien und unter Kategorien
+- Nahrung, Elektronik, Werkzeuge, Handies und Zubehör
+- Nichtfunktionale Anforderungen eingehalten

@@ -4,6 +4,6 @@ Ziel:
 ein vollständiges UML Diagramm zum benutzten Authentifizierungsprozess
 
 Anforderungen:
-UML konform
+- UML konform
 
 Solution von Jasmin Clos
