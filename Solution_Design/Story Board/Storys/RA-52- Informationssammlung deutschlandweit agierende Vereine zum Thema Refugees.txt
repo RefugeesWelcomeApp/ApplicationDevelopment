@@ -1,0 +1,8 @@
+RA-52- Informationssammlung deutschlandweit agierende Vereine zum Thema Refugees
+
+Ziel:
+- eine allgemeine Sammlung von Informationen zu den wichtigsten Vereinen in Deutschland
+
+
+Anforderungen:
+- ...
