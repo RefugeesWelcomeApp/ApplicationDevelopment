@@ -1,13 +1,20 @@
-Ra-33-Grobkonzept Zusammenarbeit der Module
+﻿Ra-33-Grobkonzept Zusammenarbeit der Module
 
 Ziel:
 - Entwurf eines Systems welches die einzelnen Komponenten vereint 
 und die Webpage für den ANwender zusammenbaut
 (Was muss geschehen damit der Anwender eine vollständige Seite erhält)
--Komponenten: WIki+ Statischer Inhalt+ Visual Design + Zusammenbau
+-Komponenten: WIki + Statischer Inhalt + Visual Design + Zusammenbau + (opt.) Datenbank
 - UML
+- "website zusammenschuster tool"
+
 
 Anforderungen:
-- to be defined
+- Verwendung von JSP (Fragmenten)
+- Verwendung der JSTL
+- ...
+
+OP:
+- opt. criteria api
 
 Solution zugewiesen an Aras Mousavi ; Unterstützung von Stefan Ludowicy

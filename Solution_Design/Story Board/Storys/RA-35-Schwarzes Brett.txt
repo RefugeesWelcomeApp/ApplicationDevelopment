@@ -3,10 +3,13 @@ RA-35-Schwarzes Brett
 Ziel:
 
 - komplettes Lösungsdesign zum "Schwarzem Brett je Standort" erstellen
+- Struktur/Aufbau der Wikiseiten mit entsprechenden Inhaltsvorgaben
 
 Anforderungen:
-- Vereine und Betreiber der lokalen Aufnahmeeinrichtungen können die Bearbeiten
+- Vereine und Betreiber der lokalen Aufnahmeeinrichtungen können diese Bearbeiten
 - Umsetzung in Wiki Seiten
 - übersichtlich
+- Struktur anpassen falls benötigt in Absprache mit RA-08 TEAM
+- ...
 
 Solution zugewiesen an Nico Remus

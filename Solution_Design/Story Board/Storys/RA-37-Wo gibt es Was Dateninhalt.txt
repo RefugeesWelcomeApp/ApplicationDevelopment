@@ -10,5 +10,7 @@ Anforderungen:
 - angepasst an vorhandene Kategorien von Openstreetmap
 - angepasst an das DB Design
 - Bilder zu den Kategorien und unter Kategorien
-- Nahrung, Elektronik, Werkzeuge, Handies und Zubehör
+- Nahrung, Elektronik, Werkzeuge, Handies und Zubehör etc.
 - Nichtfunktionale Anforderungen eingehalten
+- Excel oder vergleichbares (CSV...)
+- ...

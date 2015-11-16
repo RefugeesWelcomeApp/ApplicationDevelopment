@@ -8,3 +8,6 @@ Anforderung:
 - Nutzung freier/Öffentlicher Datenbestände
 - Nutzng von Datenbanktabellen, normalisiert
 - alternativ: Optimierung der Lösung durch Wikiseite möglich anstelle Datenbankanwendung (Übersichtlichkeit?)
+- ...
+
+-> Philipp zur Vorabeit zugewiesen

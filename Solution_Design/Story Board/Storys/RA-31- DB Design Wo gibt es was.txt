@@ -8,3 +8,6 @@ Anforderungen:
 - Leicht pflegbar
 - normalisiert
 - nichtfunktionale Anforderungen erfüllt
+- UML
+- ERM
+- ...
