@@ -12,4 +12,8 @@ Anforderungen:
 
 
 
-Solution:
+Solution: bearbeitet von Stefan Ludowicy
+
+Nach Besprechung im Teammeeting, Analyse des vorhandenen Know-How im Team und Recherche wurde entschlossen, dass wir den Apache TomEE 1.7 mit Web Profile als Applikationsserver verwenden. Diese Umgebung erfüllt in Verbindung mit dem Apache HTTP Webserver (front-facing) und dem MariaDB unsere funktionalen und nicht-funktionalen Anforderungen unter Voraussetzung einer korrekten Konfiguration und Anwendungsprogrammierung.
+Zur Erfüllung der TomEE Anforderungen wurde Oracle Java 7 auf dem Server "ddc" installiert.
+Bezüglich MariaDB und Apache HTTP Server, siehe die jeweiligen Storys im Projekt-Git-Repository.

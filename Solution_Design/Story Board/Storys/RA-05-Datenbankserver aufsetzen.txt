@@ -9,6 +9,25 @@ Datenbank muss für die Verwendung der WEbanwendung erreichbar(lesend/schreibend
 Zugangsdaten müssen so hinterlegt sein, dass diese auf Anfrage bereitgestellt werden können.
 Zusammenarbeit mit dem Application Server muss sichergestellt werden und alle Funktionen die später benötigt werden, müssen bereitgestellt werden.
 
-Solution:
+Solution: bearbeitet von Stefan Ludowicy
 
-MariaDB installiert
+
+auf dem Server "ddc" wurde ein aktuelles MariaDB installiert und grundkonfiguriert.
+MariaDB erfüllt die oben genannten Anforderungen, ist aus Client-Sicht ein zu MySQL kompatibler DB-Server und sowohl kostenfrei als auch Open Source. 
+
+apt-key adv --recv-keys --keyserver keyserver.ubuntu.com 0xcbcb082a1bb943db
+add-apt-repository 'deb http://mariadb.biz.net.id//repo/10.1/debian jessie main'
+apt-get update
+apt-get install mariadb-server mariadb-client
+[Bearbeitung der Grundkonfigurationsdialoge...]
+mysql_secure_installation
+	[komplexes und langes mysql root-Passwort gesetzt]
+	[kein remote-login für root]
+	[anonymous user deaktiviert]
+	[test-Datenbank und test-Berechtigungen gelöscht]
+
+Über iptables Regeln ist sichergestellt, dass der MariaDB-Server nur von whitelisted Systemen erreichbar ist.
+Der Datenbank-Service startet automatisch bei Serversystemstart.
+Updates der Datenbanksoftware werden automatisiert bei Durchführung von Systemupdates mittels Standard-Debian-Verfahren (apt) installiert und konfiguriert.
+Konten zum Zugriff auf den SQL-Server werden auf Anfrage und nach Genehmigung angelegt.
+Eine detaillierte Konfiguration welche die Vorgaben des Telekom PSA-Verfahrens erfüllt muss nachträglich eingerichtet werden.
