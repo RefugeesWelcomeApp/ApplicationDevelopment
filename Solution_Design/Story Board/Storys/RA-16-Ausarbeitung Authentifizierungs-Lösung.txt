@@ -1,20 +1,52 @@
-RA-16-Ausarbeitung Authentifizierungs-L�sung
+RA-16-Ausarbeitung Authentifizierungs-Lösung
 
 Ziel:
 
-- Erstellung Solution Design f�r Authentifizierungsl�sung
+- Erstellung Solution Design für Authentifizierungslösung
 - UML
-- Lokale Vereine k�nnen authentifiziert werden und erlangen besondere Benutzerrechte(Bearbeitung Lokaler Wikiseiten)
-- Kl�rung auf welchen Bereich wer Zugriff haben soll
+- Lokale Vereine können authentifiziert werden und erlangen besondere Benutzerrechte(Bearbeitung Lokaler Wikiseiten)
+- Klärung auf welchen Bereich wer Zugriff haben soll
 
 
 Anforderungen:
 - hohe Sicherheit
 - Umgehung ausgeschlossen
-- Ein Account f�r alles
-- Datenaustausch der sensiblen Daten nur mit aktueller Verschl�sselungstechnologie
+- Ein Account für alles
+- Datenaustausch der sensiblen Daten nur mit aktueller Verschlüsselungstechnologie
 - Erstellung Benutzergruppen (eine Gruppe pro Standort?)
-- Benutzergruppe: Administrator mit Berechtigung f�r DB Pflege, ...
+- Benutzergruppe: Administrator mit Berechtigung für DB Pflege, ...
 
 Solution:
-Zugewiesen an Jasmin Clos, Unterst�tzung von Stefan Ludowicy
+Zugewiesen an Jasmin Clos, Unterstützung von Stefan Ludowicy
+
+
+RA-16-Ausarbeitung Authentifizierungs-Lösung
+Kurzbeschreibung:
+1.	Der Benutzer gibt im ersten Schritt seinen Namen, Stadt, Vereinsname und email Adresse in ein Formular ein.
+2.	Der Vereinsname wird anhand des Vereinsregisters verifiziert
+3.	Der Benutzer bekommt eine Email an die angegebene Adresse
+4.	Anhand dieser Email Adresse verifiziert er sich (Double Opt In Verfahren)
+
+Ausführung:
+1.	Formularerstellung mit Feldern für Namen, Stadt, Vereinsname und Email Adresse
+formular_erstellen ( $_POST['emailadresse'],
+                         $_POST['gender'],
+                         $_POST['vereinsname'],
+                         $_GET['vorname'],
+                         $_GET['nachname'],
+                         $_GET['einverstanden'] );
+
+2.	Überprüfung, ob alle Felder des Formulars ausgefüllt sind (Affenformular)
+3.	Die eingegebenen Daten werden in einer Datei in der Datenbank gespeichert (Bsp. BlackBoardANwaerter.txt – Je Datensatz eine Zeile in gleichem Format)
+4.	Optional noch eine Kontrollzahl (Uhrzeit und Datum) muster@telekom.de|Herr|Max|mustermann|DeutscheTelekomAG|1611151315
+5.	Vereinsname anhand des Vereinsregisters prüfen
+6.	Email an den Benutzer schicken mit Verifizierungslink
+7.	Benutzer klickt auf den Link
+8.	Laden der Datei von Punkt 3 und vergleichen. 
+9.	Umschreiben des Datensatzes zu BlackBoard.txt
+Sicherheiten:
+-	Statt get lieber post verwenden, damit die daten der url Zeile nicht für jeden sichtbar sind. 
+-	Bei der Scriptprogrammierung sollte der User nur lese und schreibrechte haben und keine Ausführungsrechte (root)
+-	Die registrierten User bekommen ein Boolean „Zugriff“ welches nur bei der entsprechenden Stadt auf True gesetzt wird
+
+
