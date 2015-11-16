@@ -1,10 +1,24 @@
 RA-19-WebServer aufsetzen + konfigurieren
 
 Ziel:
-Ein funktionsbereiter Webserver ist aufgesetzt, vollständig konfiguriert und die Setup Datei liegt im GIthub
+Ein Customer-Facing, funktionsbereiter Webserver ist aufgesetzt und vollständig konfiguriert
 
-ANforderungen:
+Anforderungen:
 - ...
 
-Solution von Stefan Ludowicy
-Status: 70%
+Solution: bearbeitet von Stefan Ludowicy
+
+Apache HTTP Server wurde auf dem Server "ddc" installiert und für unsere Domain auf Port 80 (http) und 443(http over tls) konfiguriert.
+
+apt-get install software-properties-common
+apt-get install python-software-properties
+apt-key advanced --keyserver keys.gnupg.net --recv-keys 7A322AC6E84AFDD2
+add-apt-repository 'deb http://releases.wikimedia.org/debian jessie-mediawiki main'
+apt-get update
+apt-get install apache2
+apt-get install php5 php5-mysql libapache2-mod-php5
+[apache configuration]
+[TLS/Zertifikatkonfiguration]
+
+Der Webserver-Service startet automatisch bei Serversystemstart.
+Updates der Webserversoftware werden automatisiert bei Durchführung von Systemupdates mittels Standard-Debian-Verfahren (apt) installiert und konfiguriert.
