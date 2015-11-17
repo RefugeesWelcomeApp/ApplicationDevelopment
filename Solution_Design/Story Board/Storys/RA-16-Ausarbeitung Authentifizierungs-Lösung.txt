@@ -48,5 +48,6 @@ Sicherheiten:
 -	Statt get lieber post verwenden, damit die daten der url Zeile nicht für jeden sichtbar sind. 
 -	Bei der Scriptprogrammierung sollte der User nur lese und schreibrechte haben und keine Ausführungsrechte (root)
 -	Die registrierten User bekommen ein Boolean „Zugriff“ welches nur bei der entsprechenden Stadt auf True gesetzt wird
+  (1:n) oder (1:1) Beziehung? Überprüfung von Email Adresse und Vereinszugehörigkeit
 
 
