@@ -48,6 +48,15 @@ Sicherheiten:
 -	Statt get lieber post verwenden, damit die daten der url Zeile nicht für jeden sichtbar sind. 
 -	Bei der Scriptprogrammierung sollte der User nur lese und schreibrechte haben und keine Ausführungsrechte (root)
 -	Die registrierten User bekommen ein Boolean „Zugriff“ welches nur bei der entsprechenden Stadt auf True gesetzt wird
-  (1:n) oder (1:1) Beziehung? Überprüfung von Email Adresse und Vereinszugehörigkeit
+ 
+ weiterführende Uafgabe: (1:n) oder (1:1) Beziehung? Überprüfung von Email Adresse und Vereinszugehörigkeit
+ 
+ Mein Vorschlag wäre eine 1:1 Beziehung aus folgenden Gründen:
+ - keine doppelten Einträge
+ - es wird dann wahrscheinlich eine globale Email Adresse benutzt bpw. Info@. Auf diese globale email adresse haben nur bestimmte Personen eines Vereins zugriff und somit haben wir einen weiteren Punkt für die Verifizierung.
+ 
+ Die Email Adresse sollte anhand der Mail- serverantwort überprüft werden (Überprüfung ob Domain vorhanden und user "valid")
+ Desweiteren sollte der User in unserem Formular den Namen des Vereins eintragen, wie er im Vereinsregister steht.
+ Diesen namen können wir hier überprüfen https://www.handelsregister.de/rp_web/mask.do?Typ=n
 
 
