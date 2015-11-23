@@ -1,0 +1,23 @@
+Warum Maria DB ?
+
+MariaDB - relationales Open-Source-Datenbankverwaltungssystem // aus Fork von MySQL entstanden
+
+Anwernder: Google, Mozilla, Teamspeak, Wikipedia
+
+Vorteile:
+
+- kontinuierliche Weiterentwicklung 
+     -> Updates werden wesentlich schneller als bei MySQL an die Endanwender durchgereicht
+     -> Kontinuierliche Arbeit an neuen Features^
+
+- laut Hersteller mindestens 5mal besser Performance als MySQL
+  -> bei größeren Mengen an Datensätzen um einiges performanter
+  + bietet elegante Migration von anderen Datenbanksystemen auf MariaDB
+  + Integration von PlugIns aus der Community (= ein Weg, bei dem sich die Authentifizierung von Nutzern über eigenes, für diesen Zwck geschriebene PlugIns, abwickeln lässt.)
+
+- kostenlos	- unter freien Lizenz verfügbar		- weniger Fehleranfällig
+
+- "Spider"-Engine, die große Datenbanktabellen über mehrere Server verteilen kann -> verbesser Performance und Skalierbarkeit
+
+- NoSQL-Fähigkeit = "Connect"-Engine macht es möglich, dynamisch auf unterschiedliche Datenquellen zuzugreifen
+     -> Vorteil bei Internet-Anwendungen, Massen unstrukturierter Dokumente performant vorhalten zu können
