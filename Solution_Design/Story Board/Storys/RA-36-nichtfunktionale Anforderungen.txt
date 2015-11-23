@@ -10,3 +10,5 @@ nichtfunktionale Anforderungen:
 - Benutzerfreundlichkeit / Intuitivität
 - Search Engine Optimization Vorgaben der Telekom einhalten
 - ...
+
+Aras: bereits auseinander gesetzt
