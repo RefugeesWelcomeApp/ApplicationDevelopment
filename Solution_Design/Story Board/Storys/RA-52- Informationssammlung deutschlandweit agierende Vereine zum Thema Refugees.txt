@@ -6,3 +6,5 @@ Ziel:
 
 Anforderungen:
 - ...
+
+Solution von Jasmin Clos
