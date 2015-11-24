@@ -5,6 +5,8 @@ Ziel:
 
 
 Anforderungen:
-- ...
+- Die Vereine sollten registriert sein
+- Aufteilung auf verschiedene Standorte
+- kurze Stichpunkte, was diese Vereine für Hauptpunkte haben
 
 Solution von Jasmin Clos
