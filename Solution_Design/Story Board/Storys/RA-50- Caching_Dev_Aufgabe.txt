@@ -7,4 +7,4 @@ Ziel:
 Anforderungen:
 - Einhaltung Telekom PSA Anforderungen
 - Nichtfunktionale Anforderungen eingehalten
-- ...
+- Auf Funktionalität geprüft
