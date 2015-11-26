@@ -10,6 +10,7 @@ Anforderungen:
 - Umsetzung in Wiki Seiten
 - übersichtlich
 - Struktur anpassen falls benötigt in Absprache mit RA-08 TEAM
-- ...
+- einfach und Verständlich
+- keine Redundanz in den vorhandenen "Boards" (kein gleiches Board an zwei Stellen - muss auf eine Seite referenzieren)
 
 Solution zugewiesen an Nico Remus

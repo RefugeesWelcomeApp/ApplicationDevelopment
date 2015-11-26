@@ -1,7 +1,12 @@
 RA-03-Story Erstellung
 
 Ziel:
+- Alle Stories welche zur Erfüllung unseres Gruppenziels notwendig ist, mit Ziel, Anforderungen und ggf. Offenen Punkten klar definiert erstellen
+
 
 Anforderungen:
+- einheitliches Design
+- vollständig definiert
 
-Stories:
+
+

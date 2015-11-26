@@ -7,4 +7,3 @@ Ziel:
 Anforderungen:
 - Schreibtischtest
 - UML
-- ...

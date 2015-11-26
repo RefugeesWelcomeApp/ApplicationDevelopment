@@ -1,4 +1,4 @@
-RA-02-Story Table erstellen
+﻿RA-02-Story Table erstellen
 Ziel: 
 eine Übersicht über die Sprints, der vorhandenen und noch zu erledigenden Stories
 
@@ -10,4 +10,9 @@ Anforderungen:
 - was man eben noch schönes mit Google Docs anstellen kann
 - Bearbeitungsbeschränkung auf das Orga_Team
 - Verlinkung der Sprints mit der Story Tabelle
+- Ausbau der Personen die einer Storie zugewiesen werden können auf 4
+- Aufteilung der SP auf die Zugewiesenen Personen
+- Übersicht welche Storie 99%/95% hat
+- Anlegen aller benötigten Sprint Reiter mit Datum
+- Farbliche Hervorhebung welche Stoie rdy ist, aber noch nicht vergeben
 

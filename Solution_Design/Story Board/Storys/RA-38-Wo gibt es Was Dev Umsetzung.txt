@@ -11,4 +11,4 @@ Anforderungen:
 - nur über Application Server änderbar (DB)
 - Webansicht um den DB Inhalt anpassen/befüllen zu können
 - Nutzung von fertigem/offenen Quellcode
-- ...
+- Dokumentation

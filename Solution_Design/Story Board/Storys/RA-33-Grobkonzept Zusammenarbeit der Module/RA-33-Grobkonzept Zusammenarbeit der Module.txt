@@ -12,7 +12,7 @@ und die Webpage für den ANwender zusammenbaut
 Anforderungen:
 - Verwendung von JSP (Fragmenten)
 - Verwendung der JSTL
-- ...
+
 
 OP:
 - opt. criteria api

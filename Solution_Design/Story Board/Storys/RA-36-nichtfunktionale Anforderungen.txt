@@ -9,6 +9,7 @@ nichtfunktionale Anforderungen:
 - Transparenzarten aus Vorlesung Verteilte Systeme der HfTL einhalten
 - Benutzerfreundlichkeit / Intuitivität
 - Search Engine Optimization Vorgaben der Telekom einhalten
-- ...
+- einheitliches Design
+- PDF erzeugen wo alles schön aufgelistet ist
 
 Aras: bereits auseinander gesetzt

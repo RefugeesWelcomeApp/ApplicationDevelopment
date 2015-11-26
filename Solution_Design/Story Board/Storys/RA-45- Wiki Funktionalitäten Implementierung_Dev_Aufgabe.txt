@@ -5,4 +5,4 @@ Ziel
 - Wikimedia Lösung konfiguriert
 
 Anforderungen
-- ...
+- Doku

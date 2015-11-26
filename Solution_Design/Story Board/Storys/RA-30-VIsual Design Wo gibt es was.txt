@@ -5,4 +5,6 @@ Anforderungen:
 - Software?
 - als Websiten draft anlegen
 - nichtfunktionalen Anforderungen
-- ...
+- gute Benutzerfreundlichkeit 
+- im Einklang mit der restlichen WS
+- Telekom Konform

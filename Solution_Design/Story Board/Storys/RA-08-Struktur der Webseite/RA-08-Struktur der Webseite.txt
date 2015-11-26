@@ -11,6 +11,9 @@ Anforderung:
 Solution:
 Jean, Philipp, Aras, Eric
 
+Weiterführende UMLs (zu den Kategorien auf der WS) werden von den Beteiligten ebenfalls erstellt (Grob Konezept). Bereit erklärt haben sich:
+Philipp Staats, ...?
+
 _______________________________________________________________________________________________________________________________________
 
 Vertiefung Wiki:

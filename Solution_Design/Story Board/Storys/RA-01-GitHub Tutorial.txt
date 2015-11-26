@@ -1,4 +1,4 @@
-RA-01-GitHub Tutorial
+﻿RA-01-GitHub Tutorial
 Ziel:
 jeden Mitarbeiter dieses Teams dazu befähigen GitHub anständig zu nutzen
 
@@ -11,3 +11,6 @@ Wie pushe ich das ganze gegen den master Branch?
 Step by Step Vorgehensweise demonstrieren
 Link/ Zusammenfassung aushändigen in der alles einfach erläutert wird
 Vorstellung während HS Phase 14
+
+
+-> Done

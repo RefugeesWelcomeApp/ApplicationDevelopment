@@ -13,4 +13,4 @@ Anforderungen:
 - Nahrung, Elektronik, Werkzeuge, Handies und Zubehör etc.
 - Nichtfunktionale Anforderungen eingehalten
 - Excel oder vergleichbares (CSV...)
-- ...
+- Preisklasse

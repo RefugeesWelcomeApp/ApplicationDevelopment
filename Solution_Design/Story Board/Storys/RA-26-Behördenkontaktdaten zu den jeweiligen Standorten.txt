@@ -9,5 +9,7 @@ Anforderungen:
 - Adresse
 - Aufgabe
 - Open map link
-- Ansprechpartner?
-- ...
+- Links
+- ÷ffnungszeiten
+- in einer DB gespeichert - Schema erstellen
+- auf groﬂe/Wichtige St‰dte Beschr‰nken

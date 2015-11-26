@@ -6,10 +6,13 @@ Ziel:
 - Icons
 - Grafiken für das Weblayout
 - Kategorien Grafiken
-- ...
 
 Anforderungen:
 - gut "zoombar"
 - Seriös
 - Telekom konform
+- keine Rechte Verletzung
+
+OP: 
+- Telekom Bildpool nutzbar?
 

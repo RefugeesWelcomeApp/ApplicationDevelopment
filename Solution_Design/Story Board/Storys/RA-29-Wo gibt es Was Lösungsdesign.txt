@@ -12,3 +12,4 @@ Ziel:
 Anforderungen:
 - sehr leicht verständlich und bedienbar
 - leicht zu pflegen (Daten hinzufügen, entfernen etc.)-> DB
+- Preisklasse
