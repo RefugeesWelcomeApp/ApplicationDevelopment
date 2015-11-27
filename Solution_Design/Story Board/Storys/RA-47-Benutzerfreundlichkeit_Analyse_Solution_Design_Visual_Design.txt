@@ -10,4 +10,3 @@ Anforderungen:
 - 
 
 OP:
-- interne Umfrage? Hochschulumfrage?
