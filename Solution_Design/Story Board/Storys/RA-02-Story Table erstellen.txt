@@ -10,9 +10,9 @@ Anforderungen:
 - was man eben noch schönes mit Google Docs anstellen kann
 - Bearbeitungsbeschränkung auf das Orga_Team
 - Verlinkung der Sprints mit der Story Tabelle
-- Ausbau der Personen die einer Storie zugewiesen werden können auf 4
+- Ausbau der Personen die einer Storie zugewiesen werden können auf 3 CoOp + Backup
 - Aufteilung der SP auf die Zugewiesenen Personen
-- Übersicht welche Storie 99%/95% hat
+- Übersicht welche Storie 99%/95%/85% hat
 - Anlegen aller benötigten Sprint Reiter mit Datum
 - Farbliche Hervorhebung welche Stoie rdy ist, aber noch nicht vergeben
 

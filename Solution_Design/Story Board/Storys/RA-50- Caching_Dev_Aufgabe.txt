@@ -1,10 +1,12 @@
-RA-50- Caching_Dev_Aufgabe
+﻿RA-50- Caching_Dev_Aufgabe
 
 Ziel:
 
 - Implementierung des designten Cachings
+- Aufsplittung in Serversetiig und CDN
 
 Anforderungen:
 - Einhaltung Telekom PSA Anforderungen
 - Nichtfunktionale Anforderungen eingehalten
 - Auf Funktionalität geprüft
+- Doku

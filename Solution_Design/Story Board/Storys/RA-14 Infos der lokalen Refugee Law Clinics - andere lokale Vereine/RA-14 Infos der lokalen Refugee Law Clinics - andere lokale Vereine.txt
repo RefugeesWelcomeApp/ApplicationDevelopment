@@ -3,10 +3,10 @@ Infos der lokalen Refugee Law Clinics
 Ziel:
 - Struktur für die Seite der Lokalen Vereine welche Rechtsberatung anbieten
 - allgemeine Infos zu den Refugee Law clinics 
-- ...
+
 
 
 Anforderungen:
 - An die Struktur aus RA-08 halten
 - Struktur bei Bedarf ergänzen, aber mit Absprache Team RA 08
-- ... 
+ 

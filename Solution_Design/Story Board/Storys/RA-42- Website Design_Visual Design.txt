@@ -8,7 +8,7 @@ Anforderungen:
 - HTML 5
 - Standardisierte CSS
 - responsive Design
-- ...
+
 
 OP:
 - Umsetzung mit Foundation Framework?

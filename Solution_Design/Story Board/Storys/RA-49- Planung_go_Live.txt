@@ -5,4 +5,8 @@ Ziel:
 - Findung von "early bird" Vereinen und Testern
 
 Anforderungen:
-- ...
+- 
+
+
+OP:
+- Tester"arten" (Obefläche, Funktion...)

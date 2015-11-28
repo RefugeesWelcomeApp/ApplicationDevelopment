@@ -3,10 +3,11 @@ RA-48- Caching
 Ziel:
 - einhaltung der Performance und Skalierungsziele
 - "soviel wie nötig aber nicht soviel wie möglich cachen"
+- Aufsplittung in Serversetiig und CDN
+
 
 Anforderungen:
 - keine Personenbezogenen Daten cachen!
 - nichtfunktionale Anforderungen erfüllt
 - Nutzung der Cloudflare-Plattform Funktionen
-- 
-- ...
+

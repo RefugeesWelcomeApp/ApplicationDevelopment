@@ -1,0 +1,14 @@
+RA-53- allgemeines zu deutschland DEV_Visual umsetzung
+
+Ziel:
+- alle allgemeines zu Deutschland in die Website Integrieren
+
+Anforderungen:
+RA-06-Rechtliches Einmaleins
+RA-07-häufig genutzte Rufnummern (Notrufnummern) + deren Aufgabengebiete
+RA-13 Anlaufstationen für z.B. kurzfristige Unterkünfte / Tafel / DRK
+RA-14 Infos der lokalen Refugee Law Clinics / andere lokale Vereine
+RA-23-Gesundheitssystem
+RA-24-Linksammlung zu anderen Hilfeseiten und Funktionalitäten
+RA-26 Behördenkontakte
+RA-32-Translation
