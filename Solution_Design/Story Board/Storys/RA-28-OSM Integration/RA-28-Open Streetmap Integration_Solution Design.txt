@@ -2,11 +2,20 @@ RA-28-Open Streetmap Integration_Solution Design
 
 Ziel:
 - Karte mit bestimmten Inhalten einblenden lassen (points of interest)
-- Orte nach Authentifizierung zur Karte hinzufügen, löschen, bearbeiten können
+- (Orte nach Authentifizierung zur Karte hinzufügen, löschen, bearbeiten können) -> out of scope
 
 
 Anforderung:
-- Bereits in Open Streetmaps hinterlegte Orte müssen eingeblendet werden können
+- Bereits in Open Streetmaps hinterlegte Orte müssen eingeblendet werden können -> per API filtern
 - Ausformulierung nach Fertigstellung, um Inhalte in Abschlussdokument aufnehmen zu können
 
 Solution zugewiesen an Sheldon Jesudasan und Sebastian Treske
+
+OffenePunkte/Ergänzung:
+
+- Filtermöglichkeiten für den Benutzer als auch als "Applikation" die per Schnittstelle drauf zugreift erläutern
+- Es soll nicht auf unserer Website die Möglichkeit gegeben werden POis zu ergänzen -> Das ist im Rahmen der Orginial Website schon machbar
+und muss/Darf/soll nicht nachgebaut werden.
+- Alle wichtigen Informationen die wir benötigen (LIDL, REWE, Aldi Und co.) sind bereits in der Map hinterlegt - somit für Punkt zwei auch keine
+Notwendigkeit gegeben
+- Open Source API zum darstellen/filtern/ der Map nicht erwähnt -> gibt es sowas?

@@ -1,0 +1,7 @@
+RA-56 - Feinkonzept ausarbeiten
+
+Ziel:
+vollständiges Feinkonzept vorhanden
+
+Anforderungen:
+- in die Datei des Grobkonzeptes einfügen

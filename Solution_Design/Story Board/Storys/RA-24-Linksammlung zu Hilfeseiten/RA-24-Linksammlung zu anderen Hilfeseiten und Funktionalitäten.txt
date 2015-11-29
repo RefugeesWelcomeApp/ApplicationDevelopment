@@ -6,6 +6,8 @@ Ziel:
 
 Anforderungen:
 - Seiten sind nicht rechtsradikal, haben keine negativen Hintergründe, sind sicher und halbwegs aktuell
--...
 
-Solution: 
+
+Ergänzungen:
+- Linksammlung den Städten zuordnen (große Städte oder mit vielen Flüchtlingen), dazu ggf. weitere Links/ Hilfeseiten Suchen
+- Struktur der Website mit Team RA-08 bearbeiten

@@ -1,0 +1,11 @@
+RA-55- Zusammenarbeit der Module Dev_Umsetzung
+
+Ziel:
+- Designte Lösung (Ra-33) umsetzung und ggf. Anpassungen vornehmen
+
+Anforderungen:
+- möglichst effiziente Lösung
+
+Vorraussetzung:
+- TomEE
+- DB Server

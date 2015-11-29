@@ -11,4 +11,6 @@ Anforderungen:
 - Hinweise bzw. Möglichkeit aufzeigen, wie und wo ich Einrichtungen / Zweigstelle finde
 - Hinweisen dass diese Vereine gemeinnützige sind und durch Spenden leben
 
-Solution von Christoph 90%
+
+OP/Ergänzungen:
+- Deutschlandweit agierende Organisationen (die TOP3) ergänzen, ausgenommen DRK und TAFEL

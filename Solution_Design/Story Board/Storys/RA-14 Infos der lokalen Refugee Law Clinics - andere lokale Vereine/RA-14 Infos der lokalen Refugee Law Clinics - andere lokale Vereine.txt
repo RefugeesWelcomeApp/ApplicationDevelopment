@@ -9,4 +9,11 @@ Ziel:
 Anforderungen:
 - An die Struktur aus RA-08 halten
 - Struktur bei Bedarf ergänzen, aber mit Absprache Team RA 08
+
+Ergänzungen:
+- Links zu den größten Law Clinics/Städten (eine ÜBERSICHT -> Stadt zu Links)
+- Städte zb. Hamburg, Frankfurt, Berlin, München, Bonn, Dresden, Leipzig usw (LISTE UNVOLLSTÄNDIG!)
+- Wenn besonderheiten (nur ein Aufgabengebiet oä.) ebenfalls erwähnen
+- wo genau ist die? Open streetmap gucken und herausfinden
+
  

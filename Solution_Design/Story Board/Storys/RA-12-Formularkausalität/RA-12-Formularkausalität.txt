@@ -7,9 +7,15 @@ Anforderungen:
 Welches Formular brauche ich wann womit wofür
 Überblick für die Formularlandschaft
 
-----------------------------------------------------
-Solution: Eric 80%
+Ergänzung:
+- Kindererklärweise -> Als erstes brauchst du das, dann musst du dahin weil sonst dies
+- Bilderhaftesprache (Metaphern), Beispiele, Vergleiche
+- Antrag mit Ausfüllhinweisen
+	- Beispiel Asylantrag - was bedeuten die Felder
+- Erklärung für die TOP 3 FOrmulare
+- Eingliederung in die WebseitenStruktur
+- 
 
-- Beschreibung wie gearbeitet
-- Deine Lösung (ohne Bilder)
-
+1 PM: Philipp Staats (Textschreiber)
+2. PM: aras? (Wo sehe ich Probleme beim Verständniss?, Bildliche Beschreibung für das Verständniss des Überblicks und des FOrmular selbst)
+3. PM: erik (Wissen, Vollständigkeit)
