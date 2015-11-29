@@ -7,4 +7,3 @@ Ziel:
 Anforderungen:
 - Nutzung der Wikimedia API
 - UML
-- ...

@@ -12,4 +12,3 @@ nichtfunktionale Anforderungen:
 - einheitliches Design
 - PDF erzeugen wo alles schön aufgelistet ist
 
-Aras: bereits auseinander gesetzt

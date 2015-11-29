@@ -2,7 +2,11 @@ RA-25-Ausarbeitung grundlegende Lösungsarchitekturr
 
 Ziel:
 - eine grobe Lösungsarchitektur steht bereit
-- ...
+- Erläuterung der Tier 3 Architiktur mit einer Zusammenfassung zu den einzelnen Aufgaben
 
 Anforderungen:
-- ...
+- UML
+- Sätze (Subjekt, Prädikat, Objekt)
+- Tier 3 (FrontEnd, BackEnd, DataBase)
+
+

@@ -9,4 +9,4 @@ Anforderungen:
 - Gute Bewertung laut "Seitwert.de"
 - Einbau von Meta-Tags auf der Website
 - als JSP Fragment liefern
-- ...
+

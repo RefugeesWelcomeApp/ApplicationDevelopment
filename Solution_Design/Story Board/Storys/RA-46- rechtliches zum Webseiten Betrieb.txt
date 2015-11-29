@@ -8,4 +8,4 @@ Anforderungen:
 - Impressum
 - weiterer Notwendiger Webseiteninhalte
 - Haftung für Webseiteninhalte von dritten (wir als Hostingprovider)
-- ...
+- Erstellung der benötiten Inhalte

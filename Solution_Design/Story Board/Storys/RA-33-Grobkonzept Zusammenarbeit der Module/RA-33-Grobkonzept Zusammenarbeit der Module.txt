@@ -18,3 +18,18 @@ OP:
 - opt. criteria api
 
 Solution zugewiesen an Aras Mousavi ; Unterstützung von Stefan Ludowicy
+
+Hinweis vom 25.11.15:
+In dieser Story soll ein Text und ein UML erstellt werden darüber, wie die einzelnen Teile der Website von der HTTP Anfrage bis zur fertigen HTML zusammengebaut werden.
+Grob wird das Websiten-Zusammenbau-Tool so funktionieren:
+1 HTTP Anfrage auswerten - bei statischer Contentanfrage aus richtigem Ordner diesen direkt ausliefern. Sonst:
+2 Entsprechend Anfrage zuerst die jeweilige HTML Datei mit dem Header und Footer der Website und dem Websitendesign laden
+3 Nun den HTML Content nach Tags zum Einfügen von dynamischem Content durchsuchen und Tags durch Content ersetzen:
+   - Content von Wiki System über die Wikimedia API per JSON / HTTP Request abrufen
+   - Wo gibt es Was Funktionen ausführen und die Rückgabe einbinden
+   - sonstige Content-Quellen
+4. Punkt 3 wiederholen bis keine zu ersetzenden Tags mehr drin sind oder 10 Iterationen durchlaufen sind.
+5. Fertige Seite auf nicht erlaubten Content oder Fehlerstatuscodes prüfen und diese behandeln / ersetzen
+6. HTTP Antwort an den Client senden.
+
+Diesen Workflow könntest du auch schon in UML beschreiben und als eap Datei aus dem Enterprise Architect ins GitHub pushen. Bitte lies dich auch schonmal grob in JSP und JSTL ein.

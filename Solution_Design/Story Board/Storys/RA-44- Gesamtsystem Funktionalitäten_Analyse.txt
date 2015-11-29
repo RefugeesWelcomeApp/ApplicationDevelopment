@@ -1,0 +1,11 @@
+RA-44- Gesamtsystem Funktionalitäten_Analyse
+
+Ziel:
+
+- Prüfung das alle wichtigen Funktionen durch die einzelnen Systemkomponenten abgebildet werden können
+- Ziel ist, in einer großen Gruppe die fertig geplanten und designten Anwendungsparts durchzugehen und sicherzustellen, dass alle Systeme die Anforderungen erfüllen und wir somit anschließend anfangen können zu implementieren.
+
+Anforderungen:
+- Schreibtischtest
+- UML: fertiger Workflow und fertiges Architekturschaubild zum Gesamtsystem (UMLs der einzelnen Lösungen zusammenfügen)
+
