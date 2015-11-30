@@ -1,0 +1,6 @@
+RA-58 - Implementierung RA-33
+
+Ziel: Implementierung der Beschriebenen Lösung aus RA-33 und Ergänzung falls notwendig.
+
+Anforderungen:
+- Verwendung JSTL, JSP

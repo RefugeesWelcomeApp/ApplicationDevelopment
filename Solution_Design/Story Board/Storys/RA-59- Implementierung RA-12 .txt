@@ -1,0 +1,6 @@
+Ziel:
+- Implementierung der in der Story Ra-12 beschriebenen Lösung
+
+Anforderungen:
+- einheitliche Umsetzung
+- Ergänzungen und Umformatierung falls notwendig vornehmen

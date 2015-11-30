@@ -1,0 +1,7 @@
+RA-60- Security Implementierung
+
+Ziel: Implementierung des im Ra-16 beschriebenen Registrierungsprozess und alle weiteren Security Vorgaben
+- Security hardening
+
+Anforderungen:
+- nfas

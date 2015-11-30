@@ -1,0 +1,6 @@
+Ziel:
+- mit Kategorien, Benutzergruppen, und formatiertem Inhalt inkl gesetzten Berechtigungen gefülltes Wiki System
+
+Anforderungen:
+- nicht funktionale Anforderungen
+- Einhaltung der RA 8, 42, Sonderseiten (Schwarzes Brett)

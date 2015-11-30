@@ -1,6 +1,8 @@
 RA-54 Projektdokumentation
 
 Ziel:
+- Abgabebereite Abschlussarbeit
+- Projektplan
 
 
 Anforderungen:
