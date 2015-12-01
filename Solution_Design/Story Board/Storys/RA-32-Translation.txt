@@ -9,4 +9,28 @@ Anforderung:
 - Nutzng von Datenbanktabellen, normalisiert
 - alternativ: Optimierung der Lösung durch Wikiseite möglich anstelle Datenbankanwendung (Übersichtlichkeit?)
 
--> Philipp zur Vorabeit zugewiesen
+Technische Möglichkeiten:
+
+Methode              |Links/Beispele                         |Herrangeshensweise                 |Bemerkungen			
+=====================|=======================================|===================================|=============================================================================================================================|
+Dictionary           |http://wiktionary.org/                 |Es müssten Algorithmen geschrieben |Unlike a dictionary which aims to define and translate every major word in a given language, a translation                   |
+                     |http://www.omegawiki.org/              |werden,die wenn eine API bei den   |glossary or terminology list only includes special terms that require specific translations. Translators use glossaries when:|
+                     |http://open-dictionary.com/            |Dictionaries vorhanden ist,        |  -the translation includes special terminology or jargon such as advanced scientific, medical, or technical texts.          |
+                     |=======================================|diese Übersetzungen überreicht     |  -the translation is part of a larger set of documents that should maintain consistent terminology across all documents     |
+Glossary             |http://www.lai.com/glossaries.html%20  |                                   |                                                                                                                             |
+=====================|=======================================|===================================|=============================================================================================================================|
+Machine Translation  |http://www.apertium.org/               |                                   |                                                                                                                             |
+                     |http://www.statmt.org/moses/           |                                   |                                                                                                                             |                          
+=====================|=======================================|===================================|=============================================================================================================================|
+Spell & gramma Check |http://jazzy.sourceforge.net/          |		                               |Sollte ein Must Have sein, wenn Machine Translation (MT) benutzt wird                                                        |
+=====================|=======================================|===================================|=============================================================================================================================|
+
+Beste mögliche Lösung
+=====================
+=====================
+	
+Umsetzungstool:		                                    Bemerkung		
+http://wiki.apertium.org/wiki/Documentation           Opensource, und vermutlich durch Implementierung sinnvollste Lösung		
+http://wiki.apertium.org/wiki/Apertium_for_Dummies    How Work Apertium		
+http://wiki.apertium.org/wiki/List_of_language_pairs  Auflistung aller Übersetzungsmöglichkeiten		
+http://wiki.apertium.org/wiki/Code_structure      		Code Structure		
