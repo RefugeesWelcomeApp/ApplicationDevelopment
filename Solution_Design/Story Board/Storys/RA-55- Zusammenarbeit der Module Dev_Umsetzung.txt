@@ -6,6 +6,8 @@ Ziel:
 Anforderungen:
 - möglichst effiziente Lösung
 
+
 Vorraussetzung:
 - TomEE
 - DB Server
+-Verwendung JSTL, JSP

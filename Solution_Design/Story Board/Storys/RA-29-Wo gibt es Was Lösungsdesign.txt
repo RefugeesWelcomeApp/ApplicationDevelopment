@@ -13,3 +13,29 @@ Anforderungen:
 - sehr leicht verständlich und bedienbar
 - leicht zu pflegen (Daten hinzufügen, entfernen etc.)-> DB
 - Preisklasse
+
+______________________________________________________________
+
+Mit der Funktion "Wo gibt es was" soll dem Benutzer ermöglicht werden auf einfache Art und Weise herauszufinden, in welchem Laden er welche Dinge kaufen kann.
+Um das möglichst einfach zu gestalten, wählt der Nutzer als erstes ein Bild einer Produktkategorie aus (Beispielsweise Nahrung). Neben dem Bild findes sich noch der Kategoriename. 
+Anschließend hat er die Möglichkeit eine Unterkategorie zu wählen, oder direkt sich die Shops anzeigen zu lassen.
+Falls er eine Unterkategorie auswählt, wird er zu einer Übersichtsseite weitergeleitet. Auf dieser wird die Shopkategorie angezegit
+(zb. Supermarkt) und die dazugehörenden Shopnamen (Lidl, Rewe, Aldi). Zu den Shops gibt es dann noch eine grobe Richtung in welcher Preisklasse dieser liegt: Beispiel: Alid 1, Lidl 2, Rewe und Edeka 3.
+Falls er jedoch direkt wissen möchte wo er beispielsweise Nahrung bekommt, dann klickt er auf einen Button wie zb. "Wo bekomme ich das?" und bekommt gleich die Übersichtseite samt Shopliste angezeigt.
+
+Darüberhinaus hat er auf der Übersichtsseite die Möglichkeit eine Verlinkung zur Karte zu öffnen über einen Klick auf den Button "In meiner Nähe"/"der nächste in meiner Nähe"/"Wo finde ich diese". Damit öffnet sich ein Fenster 
+mit einer Karte gefiltert nach der ausgewählten Shop-Kategorie. Er kann dort nun seine Adresse eingeben und ein Ziel auswählen und die Navigation starten.
+
+Alternativ ist es dem Benutzer möglich, direkt nach Produkten zu Suchen (Bspw. Reis). Falls ein Eintrag gefunden wird, wird die Übersichtsseite angezegit. Falls nicht eine Fehlermeldung: "Hupps - das gewünschte Produkt konnte keiner
+Kategorie zugeordnet werden" Klicke hier um einen erneuten Suchvorgang zu starten. Wenn mehrere Einträge gefunden werden, dann gibt es eine Übersicht mit den Ergebnissen welche gefunden wurden. Daraus kann der Benutzer dann auswählen und gelangt dann zur Übersichtsseite.
+Die suche soll partiell und vollständig und familiär sein. und alles irendwie anders. Beispiel:
+    
+    DB: Paprika und Nüsse
+    Suche: Paprikaschoten -> Ergebnis: Paprika
+    Suche: Erdnüsse -> Nüsse
+
+Benötigte "Klassen":
+Shopkategorie
+Shops mit Preisklasse
+Produktkategorie
+Produktbeispiele
