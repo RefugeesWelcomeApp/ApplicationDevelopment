@@ -21,3 +21,9 @@ Vorteile:
 
 - NoSQL-Fähigkeit = "Connect"-Engine macht es möglich, dynamisch auf unterschiedliche Datenquellen zuzugreifen
      -> Vorteil bei Internet-Anwendungen, Massen unstrukturierter Dokumente performant vorhalten zu können
+
+Nachteile:
+
+- nachträgliche Migration von MariaDB zurück auf MySQL ist nicht möglich
+- Bei einem neuen Release werden die entsprechenden dazugehörigen Libraries (Jedenfalls für Debian) nicht rechtzeitig bereitgestellt, womit ein Upgrade auf eine neuere Version aufgrund von Abhängigkeiten fehl schlägt.
+- Pam_mysql wird nach Wechsel auf MariaDB als defekt angezeigt
