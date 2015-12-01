@@ -1,4 +1,4 @@
-RA-16-Ausarbeitung Authentifizierungs-Lösung
+﻿RA-16-Ausarbeitung Authentifizierungs-Lösung
 
 Ziel:
 
@@ -17,15 +17,14 @@ Anforderungen:
 - Benutzergruppe: Administrator mit Berechtigung für DB Pflege, ...
 
 Solution:
-Zugewiesen an Jasmin Clos, Unterstützung von Stefan Ludowicy
 
-
-RA-16-Ausarbeitung Authentifizierungs-Lösung
+Solution Design für Authentifizierungslösung:
 Kurzbeschreibung:
 1.	Der Benutzer gibt im ersten Schritt seinen Namen, Stadt, Vereinsname und email Adresse in ein Formular ein.
 2.	Der Vereinsname wird anhand des Vereinsregisters verifiziert
 3.	Der Benutzer bekommt eine Email an die angegebene Adresse
 4.	Anhand dieser Email Adresse verifiziert er sich (Double Opt In Verfahren)
+
 
 Ausführung:
 1.	Formularerstellung mit Feldern für Namen, Stadt, Vereinsname und Email Adresse
@@ -36,6 +35,7 @@ formular_erstellen ( $_POST['emailadresse'],
                          $_GET['nachname'],
                          $_GET['einverstanden'] );
 
+
 2.	Überprüfung, ob alle Felder des Formulars ausgefüllt sind (Affenformular)
 3.	Die eingegebenen Daten werden in einer Datei in der Datenbank gespeichert (Bsp. BlackBoardANwaerter.txt – Je Datensatz eine Zeile in gleichem Format)
 4.	Optional noch eine Kontrollzahl (Uhrzeit und Datum) muster@telekom.de|Herr|Max|mustermann|DeutscheTelekomAG|1611151315
@@ -44,19 +44,23 @@ formular_erstellen ( $_POST['emailadresse'],
 7.	Benutzer klickt auf den Link
 8.	Laden der Datei von Punkt 3 und vergleichen. 
 9.	Umschreiben des Datensatzes zu BlackBoard.txt
-Sicherheiten:
--	Statt get lieber post verwenden, damit die daten der url Zeile nicht für jeden sichtbar sind. 
--	Bei der Scriptprogrammierung sollte der User nur lese und schreibrechte haben und keine Ausführungsrechte (root)
--	Die registrierten User bekommen ein Boolean „Zugriff“ welches nur bei der entsprechenden Stadt auf True gesetzt wird
- 
- weiterführende Uafgabe: (1:n) oder (1:1) Beziehung? Überprüfung von Email Adresse und Vereinszugehörigkeit
- 
- Mein Vorschlag wäre eine 1:1 Beziehung aus folgenden Gründen:
- - keine doppelten Einträge
- - es wird dann wahrscheinlich eine globale Email Adresse benutzt bpw. Info@. Auf diese globale email adresse haben nur bestimmte Personen eines Vereins zugriff und somit haben wir einen weiteren Punkt für die Verifizierung.
- 
- Die Email Adresse sollte anhand der Mail- serverantwort überprüft werden (Überprüfung ob Domain vorhanden und user "valid")
- Desweiteren sollte der User in unserem Formular den Namen des Vereins eintragen, wie er im Vereinsregister steht.
- Diesen namen können wir hier überprüfen https://www.handelsregister.de/rp_web/mask.do?Typ=n
 
+
+
+UML siehe RA- 20
+Klärung auf welchen Bereich wer Zugriff haben soll:
+Die registrierten User bekommen ein Boolean „Zugriff“ welches nur bei der entsprechenden Stadt auf True gesetzt wird. 
+Daraus ergibt sich eine 1:1 Beziehung zwischen Stadt und User.
+Gründe dafür:
+- keine doppelten Einträge
+- es wird dann wahrscheinlich eine globale Email Adresse benutzt bspw. Info@. Auf diese globale E-Mail Adresse haben nur bestimmte Personen eines Vereins Zugriff und somit haben wir einen weiteren Punkt für die Verifizierung.
+
+Überprüfung der Email Adresse:
+Die E-Mail Adresse sollte anhand der Mail- Serverantwort überprüft werden (Überprüfung ob Domain vorhanden und User "valid")
+Des Weiteren sollte der User in unserem Formular den Namen des Vereins eintragen, wie er im Vereinsregister steht. Diesen Namen können wir hier überprüfen https://www.handelsregister.de/rp_web/mask.do?Typ=n
+Benutzergruppen:
+1. Administrator, der die Vereine für die jeweiligen Standorte freigibt mit den Rechten (Schreiben und Lesen) 
+2. User, die jeweiligen Vereine, die etwas im Board posten möchten.
+
+Verschlüsselungstechnologie:
 
