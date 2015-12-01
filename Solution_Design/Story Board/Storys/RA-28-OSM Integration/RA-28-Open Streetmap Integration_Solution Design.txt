@@ -9,7 +9,7 @@ Anforderung:
 - Bereits in Open Streetmaps hinterlegte Orte müssen eingeblendet werden können -> per API filtern
 - Ausformulierung nach Fertigstellung, um Inhalte in Abschlussdokument aufnehmen zu können
 
-Solution zugewiesen an Sheldon Jesudasan und Sebastian Treske
+Solution zugewiesen an Sheldon Jesudasan und Jan Bickmann
 
 OffenePunkte/Ergänzung:
 
