@@ -18,39 +18,7 @@ ________________________________________________________________________________
 
 Vertiefung Wiki:
 
-Wiki Struktur
-
-Allgemein Deutschland						->Startseite
-	Formulare (Getting Started)
-		Asylantrag
-			Was bei Ablehnung
-	Das Leben in Deutschland
-		Rechtliches einmaleins
-	Welche Hilfen kann ich in Deutschland erhalten
-		Hartz4
-		Wohngeld
-		Kindergeld
-	Deutschlandweit operierende Vereine
 		
-Bundesländer							-> Übersichtsseite
-	Hessen							-> Startseite mit ersten Infos und weiterführenden Links
-	Berlin
-	Bundesland1 -> Startseite
-		Flüchtlingsunterkünfte
-		Vereine
-			Aktuelles
-			allgemeine Infos
-				was wir machen
-				wer wir sind
-				warum etc 
-				vom verein bestimmt
-		Aktuelles(schwarzes Brett)
-		Freizeitgestaltung
-		Formulare
-		Städte
-			Infos
-			Formulare(spezielle)
-
 
 Website Struktur:
 
@@ -88,6 +56,32 @@ Wo finde ich was?
 			Wo? Laden Karte
 
 In meiner Nähe: -> wiki, wenn Standort, dann Dort, sonst allgemein.
+	Bundesländer
+		(
+		Bundesland1 -> Startseite
+		Flüchtlingsunterkünfte
+		Vereine Auflistung
+		     (je Verein eine Wiki Siete:)
+			Aktuelles (nicht das große Schwarze Brett)
+			allgemeine Infos
+				was wir machen
+				wer wir sind
+				warum etc 
+				vom verein bestimmt
+		Freizeitgestaltung
+		Formulare
+		Städte
+			Aktuelles(schwarzes Brett)
+			Infos
+			Formulare(spezielle)
+		)
+	Deutschlandweit operierende Vereine
+		Aktuelles
+			allgemeine Infos
+				was wir machen
+				wer wir sind
+				warum etc 
+				vom verein bestimmt
 
 
 		
