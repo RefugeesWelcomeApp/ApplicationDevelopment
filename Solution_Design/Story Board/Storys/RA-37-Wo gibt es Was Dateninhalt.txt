@@ -14,3 +14,8 @@ Anforderungen:
 - Nichtfunktionale Anforderungen eingehalten
 - Excel oder vergleichbares (CSV...)
 - Preisklasse
+
+Liste der zu erzeugenden Grafiken- Bitte als Vorarbeit Artikel/Kategorien eintragen
+Wird durch nico Remus abgearbeitet
+
+https://docs.google.com/spreadsheets/d/19vQCnfw-Q15ZIo_zalXsHEyaHWOQU0yuDSc1zkFH-EE/edit?usp=sharing
