@@ -13,6 +13,13 @@ Anforderungen:
 
 _____________________________________________________________________
 
+Beschreibung:
+
+
+
+
+SQL-Code:
+
 -- MySQL Workbench Forward Engineering
 
 SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
@@ -64,6 +71,9 @@ CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`tbl_shops` (
   `shop_name` VARCHAR(45) NOT NULL COMMENT '',
   `shop_category` INT NOT NULL COMMENT '',
   `attachment` BLOB NULL COMMENT '',
+  `quality` INT NULL COMMENT '',
+  `price` INT NULL COMMENT '',
+  `productrange` INT NULL COMMENT '',
   PRIMARY KEY (`idShops`)  COMMENT '',
   INDEX `fk_tbl_shops_tbl_shop_category1_idx` (`shop_category` ASC)  COMMENT '',
   CONSTRAINT `fk_tbl_shops_tbl_shop_category1`
@@ -82,9 +92,6 @@ DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`rltn_product_shopcategory` ;
 CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`rltn_product_shopcategory` (
   `product` INT NOT NULL COMMENT '',
   `shopcategory` INT NOT NULL COMMENT '',
-  `quality` INT NOT NULL COMMENT '',
-  `price` INT NOT NULL COMMENT '',
-  `productrange` INT NOT NULL COMMENT '',
   INDEX `fk_rltn_product_shop_tbl_product_idx` (`product` ASC)  COMMENT '',
   INDEX `fk_rltn_product_shopcategory_tbl_shop_category1_idx` (`shopcategory` ASC)  COMMENT '',
   UNIQUE INDEX `product_UNIQUE` (`product` ASC, `shopcategory` ASC)  COMMENT '',
@@ -135,6 +142,29 @@ CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`rltn_product_category` (
   CONSTRAINT `fk_rltn_product_category_tbl_product_category1`
     FOREIGN KEY (`category`)
     REFERENCES `RefugeesWelcomeApp`.`tbl_product_category` (`idtbl_product_category`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `RefugeesWelcomeApp`.`rltn_product_category_shop_category`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`rltn_product_category_shop_category` ;
+
+CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`rltn_product_category_shop_category` (
+  `shop_category` INT NOT NULL COMMENT '',
+  `product_category` INT NOT NULL COMMENT '',
+  PRIMARY KEY (`shop_category`, `product_category`)  COMMENT '',
+  INDEX `fk_rltn_product_category_shop_category_tbl_shop_category1_idx` (`product_category` ASC)  COMMENT '',
+  CONSTRAINT `fk_rltn_product_category_shop_category_tbl_product_category1`
+    FOREIGN KEY (`shop_category`)
+    REFERENCES `RefugeesWelcomeApp`.`tbl_product_category` (`idtbl_product_category`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_rltn_product_category_shop_category_tbl_shop_category1`
+    FOREIGN KEY (`product_category`)
+    REFERENCES `RefugeesWelcomeApp`.`tbl_shop_category` (`idtbl_shop_category`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
 ENGINE = InnoDB;

@@ -19,9 +19,10 @@ ______________________________________________________________
 Mit der Funktion "Wo gibt es was" soll dem Benutzer ermöglicht werden auf einfache Art und Weise herauszufinden, in welchem Laden er welche Dinge kaufen kann.
 Um das möglichst einfach zu gestalten, wählt der Nutzer als erstes ein Bild einer Produktkategorie aus (Beispielsweise Nahrung). Neben dem Bild findes sich noch der Kategoriename. 
 Anschließend hat er die Möglichkeit eine Unterkategorie zu wählen, oder direkt sich die Shops anzeigen zu lassen.
-Falls er eine Unterkategorie auswählt, wird er zu einer Übersichtsseite weitergeleitet. Auf dieser wird die Shopkategorie angezegit
-(zb. Supermarkt) und die dazugehörenden Shopnamen (Lidl, Rewe, Aldi). Zu den Shops gibt es dann noch eine grobe Richtung in welcher Preisklasse, Angebotsvielfalt und Qualität dieser liegt: Beispiel: Alid 1, Lidl 2, Rewe und Edeka 3.
-Falls er jedoch direkt wissen möchte wo er beispielsweise Nahrung bekommt, dann klickt er auf einen Button wie zb. "Wo bekomme ich das?" und bekommt gleich die Übersichtseite samt Shopliste angezeigt.
+Falls er eine Unterkategorie auswählt, wird er zu einer Übersichtsseite weitergeleitet. Auf dieser wird die Shopkategorie angezeigt
+(zb. Supermarkt) und die dazugehörenden Shopnamen (Lidl, Rewe, Aldi), sowie eine Übersicht von verfügbaren Produkten (begrenzt auf x Werte). Zu den Shops gibt es dann noch eine grobe Richtung in welcher Preisklasse, Angebotsvielfalt und Qualität dieser liegt: Beispiel: Alid 1, Lidl 2, Rewe und Edeka 3.
+Falls er jedoch direkt wissen möchte wo er beispielsweise Nahrung bekommt, dann klickt er auf einen Button wie zb. "Wo bekomme ich das?" und bekommt gleich die Übersichtseite samt Shopliste angezeigt und einer 
+Menge von Beispielprodukten (Nudeln, Reis, Tomaten, ...).
 
 Darüberhinaus hat er auf der Übersichtsseite die Möglichkeit eine Verlinkung zur Karte zu öffnen über einen Klick auf den Button "In meiner Nähe"/"der nächste in meiner Nähe"/"Wo finde ich diese". Damit öffnet sich ein Fenster 
 mit einer Karte gefiltert nach der ausgewählten Shop-Kategorie. Er kann dort nun seine Adresse eingeben und ein Ziel auswählen und die Navigation starten.
