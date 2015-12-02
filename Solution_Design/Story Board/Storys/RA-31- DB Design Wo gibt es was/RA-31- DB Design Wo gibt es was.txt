@@ -1,0 +1,145 @@
+RA-31- DB Design Wo gibt es was
+
+Ziel:
+- an das Lösungsdesign von RA-29 angepasstes Datenbank Design
+- HINWEIS: Anschriften sollen möglichst nicht gepflegt werden -> Aufgabe von Open Streetmap
+
+Anforderungen:
+- Leicht pflegbar
+- normalisiert
+- nichtfunktionale Anforderungen erfüllt
+- UML
+- ERM
+
+_____________________________________________________________________
+
+-- MySQL Workbench Forward Engineering
+
+SET @OLD_UNIQUE_CHECKS=@@UNIQUE_CHECKS, UNIQUE_CHECKS=0;
+SET @OLD_FOREIGN_KEY_CHECKS=@@FOREIGN_KEY_CHECKS, FOREIGN_KEY_CHECKS=0;
+SET @OLD_SQL_MODE=@@SQL_MODE, SQL_MODE='TRADITIONAL,ALLOW_INVALID_DATES';
+
+-- -----------------------------------------------------
+-- Schema RefugeesWelcomeApp
+-- -----------------------------------------------------
+
+-- -----------------------------------------------------
+-- Schema RefugeesWelcomeApp
+-- -----------------------------------------------------
+CREATE SCHEMA IF NOT EXISTS `RefugeesWelcomeApp` DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci ;
+USE `RefugeesWelcomeApp` ;
+
+-- -----------------------------------------------------
+-- Table `RefugeesWelcomeApp`.`tbl_product`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`tbl_product` ;
+
+CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`tbl_product` (
+  `idProdukt` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `Name` VARCHAR(45) NOT NULL COMMENT '',
+  PRIMARY KEY (`idProdukt`)  COMMENT '',
+  UNIQUE INDEX `Name_UNIQUE` (`Name` ASC)  COMMENT '')
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `RefugeesWelcomeApp`.`tbl_shop_category`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`tbl_shop_category` ;
+
+CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`tbl_shop_category` (
+  `idtbl_shop_category` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `shop_category_name` VARCHAR(45) NOT NULL COMMENT '',
+  PRIMARY KEY (`idtbl_shop_category`)  COMMENT '')
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `RefugeesWelcomeApp`.`tbl_shops`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`tbl_shops` ;
+
+CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`tbl_shops` (
+  `idShops` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `shop_name` VARCHAR(45) NOT NULL COMMENT '',
+  `shop_category` INT NOT NULL COMMENT '',
+  `attachment` BLOB NULL COMMENT '',
+  PRIMARY KEY (`idShops`)  COMMENT '',
+  INDEX `fk_tbl_shops_tbl_shop_category1_idx` (`shop_category` ASC)  COMMENT '',
+  CONSTRAINT `fk_tbl_shops_tbl_shop_category1`
+    FOREIGN KEY (`shop_category`)
+    REFERENCES `RefugeesWelcomeApp`.`tbl_shop_category` (`idtbl_shop_category`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `RefugeesWelcomeApp`.`rltn_product_shopcategory`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`rltn_product_shopcategory` ;
+
+CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`rltn_product_shopcategory` (
+  `product` INT NOT NULL COMMENT '',
+  `shopcategory` INT NOT NULL COMMENT '',
+  `quality` INT NOT NULL COMMENT '',
+  `price` INT NOT NULL COMMENT '',
+  `productrange` INT NOT NULL COMMENT '',
+  INDEX `fk_rltn_product_shop_tbl_product_idx` (`product` ASC)  COMMENT '',
+  INDEX `fk_rltn_product_shopcategory_tbl_shop_category1_idx` (`shopcategory` ASC)  COMMENT '',
+  UNIQUE INDEX `product_UNIQUE` (`product` ASC, `shopcategory` ASC)  COMMENT '',
+  PRIMARY KEY (`product`, `shopcategory`)  COMMENT '',
+  CONSTRAINT `fk_rltn_product_shop_tbl_product`
+    FOREIGN KEY (`product`)
+    REFERENCES `RefugeesWelcomeApp`.`tbl_product` (`idProdukt`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_rltn_product_shopcategory_tbl_shop_category1`
+    FOREIGN KEY (`shopcategory`)
+    REFERENCES `RefugeesWelcomeApp`.`tbl_shop_category` (`idtbl_shop_category`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `RefugeesWelcomeApp`.`tbl_product_category`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`tbl_product_category` ;
+
+CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`tbl_product_category` (
+  `idtbl_product_category` INT NOT NULL AUTO_INCREMENT COMMENT '',
+  `maincategory` INT NULL COMMENT '',
+  `Name` VARCHAR(45) NOT NULL COMMENT '',
+  `attachments` BLOB NULL COMMENT '',
+  PRIMARY KEY (`idtbl_product_category`)  COMMENT '')
+ENGINE = InnoDB;
+
+
+-- -----------------------------------------------------
+-- Table `RefugeesWelcomeApp`.`rltn_product_category`
+-- -----------------------------------------------------
+DROP TABLE IF EXISTS `RefugeesWelcomeApp`.`rltn_product_category` ;
+
+CREATE TABLE IF NOT EXISTS `RefugeesWelcomeApp`.`rltn_product_category` (
+  `product` INT NOT NULL COMMENT '',
+  `category` INT NOT NULL COMMENT '',
+  INDEX `fk_rltn_product_category_tbl_product1_idx` (`product` ASC)  COMMENT '',
+  INDEX `fk_rltn_product_category_tbl_product_category1_idx` (`category` ASC)  COMMENT '',
+  PRIMARY KEY (`product`, `category`)  COMMENT '',
+  CONSTRAINT `fk_rltn_product_category_tbl_product1`
+    FOREIGN KEY (`product`)
+    REFERENCES `RefugeesWelcomeApp`.`tbl_product` (`idProdukt`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_rltn_product_category_tbl_product_category1`
+    FOREIGN KEY (`category`)
+    REFERENCES `RefugeesWelcomeApp`.`tbl_product_category` (`idtbl_product_category`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
+SET SQL_MODE=@OLD_SQL_MODE;
+SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
+SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
