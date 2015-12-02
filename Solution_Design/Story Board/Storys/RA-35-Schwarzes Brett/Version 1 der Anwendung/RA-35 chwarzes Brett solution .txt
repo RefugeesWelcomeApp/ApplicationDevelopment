@@ -1,4 +1,4 @@
-ZU jeder Standort ID (Nur bis auf Bundeslandeene) 
+Zu jeder Standort ID (Nur bis auf Stadtebene) 
 wird eine Statische Wikiseite angelegt.
 Nach E-Mail liste kann jeder Verein/registrierte Helfer
 die Seite editieren.
