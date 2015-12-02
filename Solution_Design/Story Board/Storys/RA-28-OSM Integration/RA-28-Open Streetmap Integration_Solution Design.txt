@@ -14,6 +14,8 @@ Solution zugewiesen an Sheldon Jesudasan und Jan Bickmann
 OffenePunkte/Ergänzung:
 
 - Filtermöglichkeiten für den Benutzer als auch als "Applikation" die per Schnittstelle drauf zugreift erläutern
+-> Analyse ob Funktion umsetzbar ist per API oder nicht, wenn ja welche API wenn nein alternativen für die gewünschte Funktion suchen
+
 - Es soll nicht auf unserer Website die Möglichkeit gegeben werden POis zu ergänzen -> Das ist im Rahmen der Orginial Website schon machbar
 und muss/Darf/soll nicht nachgebaut werden.
 - Alle wichtigen Informationen die wir benötigen (LIDL, REWE, Aldi Und co.) sind bereits in der Map hinterlegt - somit für Punkt zwei auch keine
