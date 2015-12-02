@@ -1,0 +1,6 @@
+ZU jeder Standort ID (Nur bis auf Bundeslandeene) 
+wird eine Statische Wikiseite angelegt.
+Nach E-Mail liste kann jeder Verein/registrierte Helfer
+die Seite editieren.
+Diese Einträge sollen kurz sein und auf den Hauptartikel
+der verseins-Webseite verweisen.

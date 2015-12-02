@@ -1,0 +1,26 @@
+ZU jeder Standort ID (Nur bis auf stadebene) 
+wird eine Dynamische Dashboardseite angelegt.
+Nach E-Mail liste kann jeder Verein/registrierte Helfer
+eigene Artikel in die Bestehenden Themenbereiche (Leben in Deutschlad& Wo finde ich was) anlegen.
+Dieser wird nach betreffenden Standort durch den Autor getaggt und enthällt:
+Titel
+kurzbeschreibung
+Langtext ODER URL zum fremden Hauptartikel
+ThemenID
+SprachID
+AutorID
+Validflag(	^
+Gültig bis flag( Möglichkeit eine Lease-time anzugeben für angebote mit zeitlich begrenzter Gültigkeit)
+Datum_erzeugt (date-first edit/creation)
+Last_Change(Date-der letzten änderrung)
+Die 10 neusten Artikel werden nun location-id spezifisch mit titel und Kurzbeschreibung auf den Dashboard/Schwarzen Brett angezeigt.
+Durch klick auf mehr wird der Hauptartikel oder auf die Hinterlegte URL geladen. 
+Auf den Themen-Pages werden je die 10 aktuellsten Titel im Footer angezeigt und können als Hyperlinks verwendet werden.
+
+
+Prinzipiell wird eine mehrsprachige ablage sämmtliche Inforamtionen ermöglicht.
+Ist die entsprechende Information nicht in der vom Enduser Ausgewählte Sprach verfügbar, so wird versucht, sie in einer anderen Sprache 
+abzurufen(nvl), die Reihenfolge lautet:
+Deutsch
+Englisch
+alles andere
