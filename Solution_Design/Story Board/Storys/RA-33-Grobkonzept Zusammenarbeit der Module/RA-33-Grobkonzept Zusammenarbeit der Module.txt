@@ -1,9 +1,9 @@
-ï»¿Ra-33-Grobkonzept Zusammenarbeit der Module
+Ra-33-Grobkonzept Zusammenarbeit der Module
 
 Ziel:
 - Entwurf eines Systems welches die einzelnen Komponenten vereint 
-und die Webpage fÃ¼r den ANwender zusammenbaut
-(Was muss geschehen damit der Anwender eine vollstÃ¤ndige Seite erhÃ¤lt)
+und die Webpage für den ANwender zusammenbaut
+(Was muss geschehen damit der Anwender eine vollständige Seite erhält)
 -Komponenten: WIki + Statischer Inhalt + Visual Design + Zusammenbau + (opt.) Datenbank
 - UML
 - "website zusammenschuster tool"
@@ -17,19 +17,54 @@ Anforderungen:
 OP:
 - opt. criteria api
 
-Solution zugewiesen an Aras Mousavi ; UnterstÃ¼tzung von Stefan Ludowicy
+Solution zugewiesen an Aras Mousavi ; Unterstützung von Stefan Ludowicy
 
 Hinweis vom 25.11.15:
-In dieser Story soll ein Text und ein UML erstellt werden darÃ¼ber, wie die einzelnen Teile der Website von der HTTP Anfrage bis zur fertigen HTML zusammengebaut werden.
+In dieser Story soll ein Text und ein UML erstellt werden darüber, wie die einzelnen Teile der Website von der HTTP Anfrage bis zur fertigen HTML zusammengebaut werden.
 Grob wird das Websiten-Zusammenbau-Tool so funktionieren:
 1 HTTP Anfrage auswerten - bei statischer Contentanfrage aus richtigem Ordner diesen direkt ausliefern. Sonst:
 2 Entsprechend Anfrage zuerst die jeweilige HTML Datei mit dem Header und Footer der Website und dem Websitendesign laden
-3 Nun den HTML Content nach Tags zum EinfÃ¼gen von dynamischem Content durchsuchen und Tags durch Content ersetzen:
-   - Content von Wiki System Ã¼ber die Wikimedia API per JSON / HTTP Request abrufen
-   - Wo gibt es Was Funktionen ausfÃ¼hren und die RÃ¼ckgabe einbinden
+3 Nun den HTML Content nach Tags zum Einfügen von dynamischem Content durchsuchen und Tags durch Content ersetzen:
+   - Content von Wiki System über die Wikimedia API per JSON / HTTP Request abrufen
+   - Wo gibt es Was Funktionen ausführen und die Rückgabe einbinden
    - sonstige Content-Quellen
 4. Punkt 3 wiederholen bis keine zu ersetzenden Tags mehr drin sind oder 10 Iterationen durchlaufen sind.
-5. Fertige Seite auf nicht erlaubten Content oder Fehlerstatuscodes prÃ¼fen und diese behandeln / ersetzen
+5. Fertige Seite auf nicht erlaubten Content oder Fehlerstatuscodes prüfen und diese behandeln / ersetzen
 6. HTTP Antwort an den Client senden.
 
-Diesen Workflow kÃ¶nntest du auch schon in UML beschreiben und als eap Datei aus dem Enterprise Architect ins GitHub pushen. Bitte lies dich auch schonmal grob in JSP und JSTL ein.
+Diesen Workflow könntest du auch schon in UML beschreiben und als eap Datei aus dem Enterprise Architect ins GitHub pushen. Bitte lies dich auch schonmal grob in JSP und JSTL ein.
+
+
+
+Offene Punkte 2.0: ((c) hinata2712)
+@eskow 
+Bis jetzt sehr schön.
+Jedoch kleine Anpassungen:
+
+Use Case Model:
+- "HTML Datei nach Tags durch suchen"
+
+stimmt fachlich nicht!
+
+Ablauf:
+- dynamisch Contentabfrage
+- warten auf eventuelle Benutzereingaben (ja/nein)
+
+-ja:
+-- beherbergt auch dynamische seite, jedoch mit nur einem GRundgerüst, weil RESPONSE Variabeln unbesetzt sind. DIe werden geprüft, ob leer sind, wenn ja, entsteht dadurch eine Formular HTML Seite
+-- Warte auf Benutzereingaben, via HTML Formular  Tags, User click send button
+-- User eingaben werden festgehalten in HTML Variabeln (genauer REQUEST Variabeln)
+-- diese Variabeln werden an ein Java Servlet Classe gesendet und verarbeitet
+-- Servlet Class wird speziell definiert und dadurch angesprochen, sobald Send Button geklickt wird
+-- Servlet verarbeitet und setzt RESPONSE Variabeln mit den geladenen Daten (vorerst egal woher Daten kommen, Servlet ist im UML somit eine Blackbox)
+
+-nein:
+-- dynamische Seite mit fest definierten Daten aus DAtenquellen
+-- werden durch RESPONSE Variabeln geliefert
+
+Jetzt geht es normal weiter:
+- die Responsevariabeln werden noch auf dem TomEE (Tomcat) Server ersetzt
+- HTML Seite wird erzeugt
+usw. 
+
+ab hier sollte es fachlich wieder dann passen.

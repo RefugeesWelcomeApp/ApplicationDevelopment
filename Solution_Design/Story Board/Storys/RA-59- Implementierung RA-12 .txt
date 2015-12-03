@@ -1,5 +1,7 @@
 Ziel:
 - Implementierung der in der Story Ra-12 beschriebenen Lösung
+- Implementierung je einer Wiki Seite mit einem Formular (Bild wenn möglich) und einer Beschreibung bzw. Erklärung der einzelnen Felder mit einem Beispielinhalt
+	--> Ein Formular pro Wiki Seite!
 
 Anforderungen:
 - einheitliche Umsetzung

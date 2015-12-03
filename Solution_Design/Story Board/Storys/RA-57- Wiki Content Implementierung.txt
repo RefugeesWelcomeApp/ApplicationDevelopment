@@ -1,6 +1,19 @@
 Ziel:
-- mit Kategorien, Benutzergruppen, und formatiertem Inhalt inkl gesetzten Berechtigungen gefülltes Wiki System
+- mit Kategorien, Benutzergruppen, und formatiertem Inhalt inkl gesetzten Berechtigungen gefülltes Wiki System, Vorlagen und Ausfüllhilfe Seiten (lediglich Deutsch) für zB. das SChwarze Brett & alle Inhalte in dem Wiki (in Form von Allegemeins zu Deutschland, Formulare etc.)
+- Hinweis: eine erste Lösung dazu sollte bereits vorhanden sein, durch andere Stories: Hier gilt es entweder diese zu überprüfen oder falls noch nicht eingetragen als Wiki Seite dieses nachzuholen.
 
 Anforderungen:
+- Meilenstein 1: Vollständig in Deutsch (12.12.) - falls hier noch Research Stories ausstehend sind, sind diese asap nach fertigstellung nachzuliefern 
+- Meilenstein 2: Übersetzung aller Seiten in die von uns definierten Sprachen:
+-- Aras: arabisch, persisch
+-- Jasmin: französich
+-- Christoph: englisch, (russisch?)
+-- Sheldon: ?
 - nicht funktionale Anforderungen
 - Einhaltung der RA 8, 42, Sonderseiten (Schwarzes Brett)
+
+
+- Stories welche den "gleichen" Auftrag für spezifische Inhalte hatten: 
+- RA-53(allgemeines zu Deutschland)
+- RA-59(Formulare)
+- RA-35 (Schwarzes Brett)

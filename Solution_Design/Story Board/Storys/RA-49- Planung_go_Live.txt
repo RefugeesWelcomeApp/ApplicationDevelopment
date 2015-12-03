@@ -1,12 +1,39 @@
 RA-49- Planung_go_live
 
+Hintweis:
+Dies ist eine mehrstufige Story.
+Diese werden staffelartig geliefert.
+Für spezielle Unterthemen werden ggf. extra Stories erstellt.
+
+===========
+= Phase 1 =
+===========
+
 Ziel:
-- ...
 - Findung von "early bird" Vereinen und Testern
+- Inhalte der weiteren Phasen definieren!
+- Konzept aufstellen, das ein ausgiebigen (nicht vollständigen!!) Test auf Korrektheit darstellt
+
+Anforderungen:
+- Vollständigkeit der Inhalte prüfen!
+- Vollständigkeitder Funktionen prüfen!
+- Korrektur der Rechtschreibung
+- 
+
+
+OP:
+- Tester"arten" (Obefläche, Funktion...)
+
+===========
+= Phase 2 =
+===========
+
+Ziel:
+- 
 
 Anforderungen:
 - 
 
 
 OP:
-- Tester"arten" (Obefläche, Funktion...)
+- 
