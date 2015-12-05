@@ -13,3 +13,9 @@ Anforderungen:
 - ÷ffnungszeiten
 - in einer DB gespeichert - Schema erstellen
 - auf groﬂe/Wichtige St‰dte Beschr‰nken
+
+Solution:
+
+Die Tabellen wurden erstellt und teilweise normalisiert. Die Adressen werden im OSM angezeigt.
+
+
