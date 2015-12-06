@@ -20,12 +20,70 @@ Solution:
 Abfragen:
 Insert, Update, Select
 
+Shopkategorie mit Übersetzungen:
+
+Select idtbl_shop_category,tbl_language.`language`, translation
+FROM tbl_shop_category 
+JOIN rltn_shop_category_language ON rltn_shop_category_language.shop_category = tbl_shop_category.idtbl_shop_category
+JOIN tbl_language ON tbl_language.idtbl_language = rltn_shop_category_language.languageid;
+
+Produkt mit Übersetzungen
+Select *
+FROM tbl_product
+JOIN rltn_product_language 
+	ON tbl_product.idProdukt = rltn_product_language.productid
+JOIN tbl_language
+	ON tbl_language.idtbl_language = rltn_product_language.languageid
+	
+Produktkategorie mit Übersetzungen
+
+Select *
+FROM tbl_product_category
+JOIN rltn_product_category_language 
+	ON tbl_product_category.idtbl_product_category = rltn_product_category_language.product_categoryid
+JOIN tbl_language
+	ON tbl_language.idtbl_language = rltn_product_category_language.languageid
+
 Product zu Shopkategorie
+
+Select idProdukt, rltn_product_language.translation as `Produktübersetzung`, tbl_language.`language`, idtbl_shop_category, rltn_shop_category_language.translation as `Shopübersetzung`
+FROM tbl_product
+JOIN rltn_product_language 
+	ON tbl_product.idProdukt = rltn_product_language.productid
+JOIN tbl_language
+	ON tbl_language.idtbl_language = rltn_product_language.languageid
+JOIN rltn_product_shopcategory 
+	ON rltn_product_shopcategory.product = tbl_product.idProdukt
+JOIN tbl_shop_category
+	ON tbl_shop_category.idtbl_shop_category = rltn_product_shopcategory.shopcategory
+JOIN rltn_shop_category_language 
+	ON rltn_shop_category_language.shop_category = tbl_shop_category.idtbl_shop_category
+
 ProduktKategorie zu Produkt
+Select *
+FROM tbl_product_category
+JOIN rltn_product_category
+	ON rltn_product_category.category = tbl_product_category.idtbl_product_category
+JOIN tbl_product
+	ON rltn_product_category.product = tbl_product.idProdukt
+JOIN rltn_product_category_language 
+	ON tbl_product_category.idtbl_product_category = rltn_product_category_language.product_categoryid
+JOIN tbl_language
+	ON tbl_language.idtbl_language = rltn_product_category_language.languageid
+JOIN rltn_product_language 
+	ON tbl_product.idProdukt = rltn_product_language.productid
+JOIN tbl_language
+	ON tbl_language.idtbl_language = rltn_product_language.languageid
+
+
 Shopkategorie zu Shops
-Shop zu Shopkategorie
 
-
+Select *
+FROM tbl_shop_category
+JOIN tbl_shops
+	ON tbl_shop_category.idtbl_shop_category = tbl_shops.shop_category
+JOIN rltn_shop_category_language ON rltn_shop_category_language.shop_category = tbl_shop_category.idtbl_shop_category
+JOIN tbl_language ON tbl_language.idtbl_language = rltn_shop_category_language.languageid;
 
 
 SQL-Code UTF 8:
