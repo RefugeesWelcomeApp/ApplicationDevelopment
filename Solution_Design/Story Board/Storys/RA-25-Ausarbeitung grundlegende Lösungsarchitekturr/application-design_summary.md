@@ -10,3 +10,17 @@ The application uses a three-tier architecture:
 
 ##Security
 The finished application will comply to the Deutsche Telekom Group [privacy and security assessment process](https://www.telekom.com/psa-process) and thus fulfill the security requirements available at [DE](https://www.telekom.com/static/-/155996/18/technische-sicherheitsanforderungen-si) [EN](https://www.telekom.com/static/-/246042/6/security-requirements-si).
+
+##Allgemeines zu 3-Tier-Architektur
+3-Tier-Architektur, oder auch Schichtenarchitektur genannt, ist ein Strukturierungsprinzip für die Architektur von Softwaresystemen. Den einzelnen Schichten (Layern) werden einzelne Aspekte des Softwaresystems konzeptionell zugeordnet, wobei zu beachten ist, dass Aspekte einer Schicht nur durch höhere Schichten verwendet werden können.
+Vorteile:
+Komplexität der Abhängigkeiten innerhalb des Systems werden reduziert und vereinfacht.
+Zyklen im Abhängigkeitsgraphen werden vermieden (leichteres Verständnis und leichtere Wartung
+einzelne Schichten können ausgetauscht werden ohne das gesamte Softwaresystem ändern zu müssen
+Nachteile:
+Ausführgeschwindigkeit der Anwendung kann aufgrund der Datenverarbeitung in den einzelnen Schichten verschlechtert werden
+Die drei Schichten der 3-Tier-Architektur sind:
+Präsentationsschicht (Front-End): Schnittstelle zwischen Benutzer und System, Datenein- und ausgabe
+Logikschicht (Middle-Tier): Verarbeitungsmechanismen
+Datenhaltungsschicht (Back-End): enthält die Datenbank und ist verantwortlich für das Laden und das Speichern der Daten
+
