@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="RefugEEApp:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/RefugEEApp_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="RefugEEApp/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="RefugEEApp" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="org.apache.directory.studio:org.apache.commons.io:2.4" />
+          <element id="library" level="project" name="org.json:json:20151123" />
+          <element id="library" level="project" name="org.apache.commons:commons-lang3:3.3.2" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
