@@ -1,0 +1,16 @@
+<meta property="og:title" content="Deutsche-Bank-Chefvolkswirt: „Flüchtlinge sind das Beste für Deutschland“" />
+<meta property="og:description" content="Der Chefvolkswirt der Deutschen Bank wagt eine Prognose: Auch in den kommenden Jahren könnten jeweils eine Million Flüchtlinge nach Deutschland kommen. Eine einmalige Chance für Deutschland, findet er." />
+<meta property="og:url" content="http://www.faz.net/aktuell/wirtschaft/wirtschaftspolitik/deutsche-bank-chefvolkswirt-folkerts-landau-fluechtlinge-sind-das-beste-fuer-deutschland-13957440.html" />
+<meta property="og:image" content="http://media1.faz.net/ppmedia/medien/bildergalerien/3421584305/1.3957699/article_multimedia_overview/das-schweisst-zusammen-ein.jpg" />
+<meta property="og:site_name" content="FAZ.NET" />
+<meta property="article:publisher" content="https://www.facebook.com/faz" />
+<meta property="article:author" content="https://www.facebook.com/faz" />
+<meta property="fb:page_id" content="346392590975" />
+<meta property="twitter:site" content="@faznet" />
+<meta property="twitter:card" content="summary_large_image" />
+<meta property="twitter:domain" content="http://www.faz.net" />
+<meta property="twitter:creator" content="@faznet" />
+<meta property="twitter:title" content="Deutsche-Bank-Chefvolkswirt: „Flüchtlinge sind das Beste für Deutschland“" />
+<meta property="twitter:description" content="Der Chefvolkswirt der Deutschen Bank wagt eine Prognose: Auch in den kommenden Jahren könnten jeweils eine Million Flüchtlinge nach Deutschland kommen. Eine einmalige Chance für Deutschland, findet er." />
+<meta property="twitter:image:src" content="http://media1.faz.net/ppmedia/medien/bildergalerien/3421584305/1.3957699/article_multimedia_overview/das-schweisst-zusammen-ein.jpg" />
+<meta property="twitter:url" content="http://www.faz.net/aktuell/wirtschaft/wirtschaftspolitik/deutsche-bank-chefvolkswirt-folkerts-landau-fluechtlinge-sind-das-beste-fuer-deutschland-13957440.html" />
