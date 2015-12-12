@@ -1,2 +1,19 @@
-idtbl_shop_category;"OSM Bezeichner"
+idtbl_shop_category;OSM Bezeichner
 1;shop:supermarket
+2;shop:beverages
+3;shop:clothes, shop:fashion
+4;shop:bakery
+5;shop:mall
+6;shop:baby_goods
+7;shop:butcher
+8;shop:shoes
+9;shop:chemist, shop:medical_supply
+10;shop:optician
+11;shop:doityourself, shop:garden_centre
+12;shop:electronics, computer
+13;shop:mobile_phone
+14;shop:stationery
+15;shop:toys
+16;amenity:library
+17;shop:books
+18;shop:furniture
