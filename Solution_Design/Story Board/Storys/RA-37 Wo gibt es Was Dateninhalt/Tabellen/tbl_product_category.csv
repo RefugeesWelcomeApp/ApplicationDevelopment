@@ -1,3 +1,3 @@
-idtbl_product_category,maincategory,attachments
-1,NULL,NULL
-2,1,NULL
+idtbl_product_category;maincategory;attachments
+1;NULL;NULL
+2;1;NULL
