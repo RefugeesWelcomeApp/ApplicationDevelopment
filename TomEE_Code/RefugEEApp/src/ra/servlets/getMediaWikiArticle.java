@@ -19,12 +19,10 @@ public class getMediaWikiArticle extends HttpServlet  {
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 
-//        URL url = new URL("https://ddc.derpy.ws/media_wiki/api.php?action=parse&page=Rechtliches_ein_mal_eins&format=json");
         URL url = new URL("https://ddc.derpy.ws/media_wiki/api.php?action=parse&page=Das_Leben_in_Deutschland&format=json");
         HttpURLConnection httpcon = (HttpURLConnection) url.openConnection();
         httpcon.addRequestProperty("User-Agent", "Mozilla/4.76");
         InputStream is = httpcon.getInputStream();
-//        String content = convertStreamToString(is);
         String content = IOUtils.toString(is, "UTF-8");
 
         JSONObject json = new JSONObject(content);
@@ -35,10 +33,5 @@ public class getMediaWikiArticle extends HttpServlet  {
         request.setAttribute("text", text.getString("*"));
 
         getServletContext().getRequestDispatcher("/index.jsp").forward(request, response);
-    }
-
-    static String convertStreamToString(java.io.InputStream is) {
-        java.util.Scanner s = new java.util.Scanner(is).useDelimiter("\\A");
-        return s.hasNext() ? s.next() : "";
     }
 }
