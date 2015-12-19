@@ -12,3 +12,14 @@ Anforderungen:
 - Webansicht um den DB Inhalt anpassen/befüllen zu können
 - Nutzung von fertigem/offenen Quellcode
 - Dokumentation
+
+
+Lösung:
+
+Anzeige der PRoduktkategorien:
+
+- Inhalte (Produktkategorien, Produkte etc) werden über die Criteria API in eine Liste oder vergleichbares gepackt und an das FE übergeben, 
+- dieses stellt mit Hilfe von einer Schleife die Inhalte dar (JSP oder so heißt das benötigte Werkzeug)
+- FÜr den Weg über die Produktkategorien gibt es jeweils einen service (der bekommt auch die entsprechende Sprache übergeben)
+- Für die Suche wird es einen anderen Service(pfad?) geben, welcher in der Datenbank entsprechende einträge sucht, markiert deren Typ (ob Shop, Produkt etc) und liefert es wieder ans FE
+- Die Criteria API hat momentan noch PRobleme mit den Joins (reason unknown) - daher wird vrmtl. auf Views zurück gegriffen, welche entsprechende INformationen bereitstellt
