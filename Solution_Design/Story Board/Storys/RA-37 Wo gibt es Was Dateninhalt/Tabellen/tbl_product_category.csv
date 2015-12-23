@@ -1,3 +1,44 @@
-idtbl_product_category;maincategory;attachments
-1;NULL;NULL
-2;1;NULL
+idtbl_product_category;maincategory;attachments;
+1;NULL;NULL;Bekleidung
+2;1;NULL;Hose
+3;1;;Jacken
+4;1;;Oberteile
+5;1;;Schuhe
+6;1;;Unterwäsche
+7;1;;Winter assesoires
+8;NULL;;Einrichtungsgegenstände
+9;8;;Lampen
+10;8;;Möbel
+11;8;;Sanitär
+12;NULL;;Heimwerker
+13;12;;Baustoffe
+14;12;;Werkzeuge
+15;NULL;;Hygieneartikel
+16;15;;Körperpflege
+17;15;;Haarpflege
+18;NULL;;Kinderkram
+19;18;;Babyartikel
+20;18;;Spielwaren
+21;NULL;;Lebensmittel
+22;21;;Babynahrung
+23;21;;Backwaren
+24;21;;Fertiggerichte
+25;21;;Getränke
+26;21;;Gewürze
+27;21;;Milchprodukte
+28;21;;Obst/Gemüse
+29;21;;Supplements
+30;21;;Süßigkeiten
+31;21;;Wurst und Fleisch
+32;NULL;;Optiker
+33;32;;Brillen
+34;32;;Kontaktlinsen
+35;NuLL;;Printmedien
+36;35;;Bücher
+37;35;;Schreibwaren
+38;35;;Zeitungen
+39;NULL;;Technik/Elektronik
+40;39;;Haushaltsgeräte
+41;39;;Kommunikation
+42;39;;PC Zubehör
+43;39;;sonstiges

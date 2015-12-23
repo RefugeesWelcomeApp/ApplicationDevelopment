@@ -1,3 +1,44 @@
-"product_categoryid";"languageid";"translation"
-"1";"1";"Bekleidung"
-"2";"1";"Hosen"
+product_categoryid;languageid;translation
+1;1;Bekleidung
+2;1;Hose
+3;1;Jacken
+4;1;Oberteile
+5;1;Schuhe
+6;1;Unterwäsche
+7;1;Winter assesoires
+8;1;Einrichtungsgegenstände
+9;1;Lampen
+10;1;Möbel
+11;1;Sanitär
+12;1;Heimwerker
+13;1;Baustoffe
+14;1;Werkzeuge
+15;1;Hygieneartikel
+16;1;Körperpflege
+17;1;Haarpflege
+18;1;Kinderkram
+19;1;Babyartikel
+20;1;Spielwaren
+21;1;Lebensmittel
+22;1;Babynahrung
+23;1;Backwaren
+24;1;Fertiggerichte
+25;1;Getränke
+26;1;Gewürze
+27;1;Milchprodukte
+28;1;Obst/Gemüse
+29;1;Supplements
+30;1;Süßigkeiten
+31;1;Wurst und Fleisch
+32;1;Optiker
+33;1;Brillen
+34;1;Kontaktlinsen
+35;1;Printmedien
+36;1;Bücher
+37;1;Schreibwaren
+38;1;Zeitungen
+39;1;Technik/Elektronik
+40;1;Haushaltsgeräte
+41;1;Kommunikation
+42;1;PC Zubehör
+43;1;sonstiges
