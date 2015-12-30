@@ -1,0 +1,19 @@
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta property="title" content="<c:out value="${requestScope.title}"/>" />
+<meta name="description" content="Dezentrales Informationsportal für Flüchtlinge in Deutschland. Allgemeine Informationen, Ausfüllhilfe, Wo gibt es Was, Asylantrag, Leben in Deutschland, Lokale Informationen, Erstantrag" />
+<meta name="keywords" content="asylbewerber deutschland, beratung für migranten, flüchtlinge deutschland, flüchtlinge deutschland, flüchtlinge in deutschland, flüchtlinge willkommen, flüchtlingshilfe deutschland, flüchtlingshilfe deutschland, integration in deutschland, leben asylbewerber deutschland, refugee-blog, willkommen flüchtlinge, Flüchtlingshilfe in Deutschland">
+<meta property="url" content="https://ddc.derpy.ws" />
+<meta property="image" content="https://ddc.derpy.ws/resources/img/logo.png" />
+<meta property="site_name" content="RefugeesWelcome" />
+<meta name="author" content="Deutsche Telekom AG">
+<meta property="twitter:domain" content="https://ddc.derpy.ws" />
+<meta property="twitter:title" content="Refugees Welcome - <c:out value="${requestScope.title}"/>" />
+<meta property="twitter:image:src" content="https://ddc.derpy.ws/resources/img/logo.png" />
+//<meta property="twitter:description" content="%Beschreibung für Twitter%" />
+//<meta property="article:publisher" content="https://www.facebook.com/WRP" />
+//<meta property="article:author" content="https://www.facebook.com/WRP" />
+//<meta property="fb:page_id" content="%unserepageid%" />
+//<meta property="twitter:site" content="@WRP" />
+//<meta property="twitter:card" content="summary_large_image" />
+//<meta property="twitter:creator" content="@WRP" />
+//<meta property="twitter:url" content="UrlFürTwitter" />
