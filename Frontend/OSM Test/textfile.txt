@@ -1,0 +1,2 @@
+lat	lon	title	descritption	icon	iconSize	iconOffset
+51.33791	12.36224	Shop	Edeka	Ol_icon_blue_example.png	24,24	0,-24
