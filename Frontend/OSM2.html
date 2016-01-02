@@ -1,0 +1,61 @@
+<html>
+<body>
+
+  <!-- Controlle Size and Position of Map -->
+  <style type="text/css">
+        html, body, .map {
+            width: 80%;
+            height: 80%;
+            margin: 0;
+        }
+		.button {
+          position: absolute;
+          bottom: 40px;
+          left: 10px;
+		}
+   </style>
+   
+   <div id="map" class="map"></div>
+   <div id="info"></div>
+   <div class="button">
+		<button onclick="navigator.geolocation.getCurrentPosition(showPosition)">Geolocate Me!</button>
+    </div>
+	
+  <script src="http://www.openlayers.org/api/OpenLayers.js"></script>
+  <script>
+    map = new OpenLayers.Map("map");
+    map.addLayer(new OpenLayers.Layer.OSM());
+       
+    var pois = new OpenLayers.Layer.Text( "Test",
+                    { location:"./textfile.txt",
+                      projection: map.displayProjection
+                    });
+    map.addLayer(pois);
+	
+	
+ // Set start centrepoint and zoom  (default "Berlin") 
+	map.setCenter(new OpenLayers.LonLat(13.41,52.52) // Center of the map
+					   .transform(
+							   new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+								new OpenLayers.Projection("EPSG:900913") // to Spherical Mercator Projection
+						), 12 // Zoom level
+				);
+				
+// If available, get the current Location of the user and set the centrepoint accordingly 
+			if (navigator.geolocation) {
+				navigator.geolocation.getCurrentPosition(showPosition);
+			}
+			
+// Function to set the users position to the geolocation			
+function showPosition(position) {
+			map.setCenter(new OpenLayers.LonLat(position.coords.longitude,position.coords.latitude) // Center of the map
+			   .transform(
+					   new OpenLayers.Projection("EPSG:4326"), // transform from WGS 1984
+						new OpenLayers.Projection("EPSG:900913") // to Spherical Mercator Projection
+				), 12 // Zoom level
+			);
+		}
+  </script>
+  
+</body>
+</html>
