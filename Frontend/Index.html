@@ -13,7 +13,6 @@
       var lat = 52.52;
       var lon = 13.41;
       var zoom = 13;
-	  
       var map;
 	  
 //Creates Map and Control bars
@@ -57,14 +56,38 @@
 			);
 		}		
 		
+	
 // Adds new layers using OverpassAPI (http://wiki.openstreetmap.org/wiki/Overpass_API/Language_Guide) 
           map.addLayers([
-              make_layer("http://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "red"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "red"),
 			  make_layer("http://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "blue"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "yellow")
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "yellow"),	 
+				 
           ]);          
       }
+	  
   </script>
+  
+  <!-- Placeholder for all possible queries
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=beverages](bbox);out+skel;(way[shop=beverages](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mall](bbox);out+skel;(way[shop=mall](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=baby_goods](bbox);out+skel;(way[shop=baby_goods](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=butcher](bbox);out+skel;(way[shop=butcher](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=shoes](bbox);out+skel;(way[shop=shoes](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=optician](bbox);out+skel;(way[shop=optician](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mobile_phone](bbox);out+skel;(way[shop=mobile_phone](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=stationery](bbox);out+skel;(way[shop=stationery](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=toys](bbox);out+skel;(way[shop=toys](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=books](bbox);out+skel;(way[shop=books](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=furniture](bbox);out+skel;(way[shop=furniture](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=clothes](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;node[shop=fashion](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;(way[shop=fashion](bbox);node(w););out+skel;", "yellow"),  
+   -->
   
 <!--   // Controll Size and Position of the Map, and Control Attribution  -->
   <style type="text/css">
