@@ -1,12 +1,12 @@
 <html>
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" lang="en"></meta>
-  <script src="http://openlayers.org/api/2.11/OpenLayers.js"></script>
-  <script src="http://openstreetmap.org/openlayers/OpenStreetMap.js"></script>
-  <script src="http://overpass-api.de/overpass.js"></script>
+  
 </head>
-<body onload="init()">
 
+<meta http-equiv="content-type" content="text/html; charset=utf-8" lang="en"></meta>
+  <script src="http://openlayers.org/api/2.11/OpenLayers.js"></script>
+  <script src="https://openstreetmap.org/openlayers/OpenStreetMap.js"></script>
+  <script src="https://overpass-api.de/overpass.js"></script>
 <script type="text/javascript">
 
  // Set start centrepoint and zoom  (default "Berlin") 
@@ -66,147 +66,147 @@
 			case "supermarket":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "beverages":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=beverages](bbox);out+skel;(way[shop=beverages](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=beverages](bbox);out+skel;(way[shop=beverages](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "clothes":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=clothes](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=clothes](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "bakery":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "mall":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mall](bbox);out+skel;(way[shop=mall](bbox);node(w););out+skel;", "red"), 
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=mall](bbox);out+skel;(way[shop=mall](bbox);node(w););out+skel;", "red"), 
 				 
 				]); 
 				break;
 			case "baby_goods":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=baby_goods](bbox);out+skel;(way[shop=baby_goods](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=baby_goods](bbox);out+skel;(way[shop=baby_goods](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "butcher":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=butcher](bbox);out+skel;(way[shop=butcher](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=butcher](bbox);out+skel;(way[shop=butcher](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;
 			case "shoes":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=shoes](bbox);out+skel;(way[shop=shoes](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=shoes](bbox);out+skel;(way[shop=shoes](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "chemist":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;
 			case "medical_supply":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;
 			case "optician":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=optician](bbox);out+skel;(way[shop=optician](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=optician](bbox);out+skel;(way[shop=optician](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "doityourself":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "garden_centre":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "electronics":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "computer":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "mobile_phone":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mobile_phone](bbox);out+skel;(way[shop=mobile_phone](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=mobile_phone](bbox);out+skel;(way[shop=mobile_phone](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "stationery":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=stationery](bbox);out+skel;(way[shop=stationery](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=stationery](bbox);out+skel;(way[shop=stationery](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "toys":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=toys](bbox);out+skel;(way[shop=toys](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=toys](bbox);out+skel;(way[shop=toys](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "library":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "books":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=books](bbox);out+skel;(way[shop=books](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=books](bbox);out+skel;(way[shop=books](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
 			case "furniture":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=furniture](bbox);out+skel;(way[shop=furniture](bbox);node(w););out+skel;", "red"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=furniture](bbox);out+skel;(way[shop=furniture](bbox);node(w););out+skel;", "red"),
 				 
 				]); 
 				break;	
@@ -223,147 +223,147 @@
 			case "supermarket":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "beverages":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=beverages](bbox);out+skel;(way[shop=beverages](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=beverages](bbox);out+skel;(way[shop=beverages](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "clothes":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=clothes](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=clothes](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "bakery":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "mall":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mall](bbox);out+skel;(way[shop=mall](bbox);node(w););out+skel;", "blue"), 
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=mall](bbox);out+skel;(way[shop=mall](bbox);node(w););out+skel;", "blue"), 
 				 
 				]); 
 				break;
 			case "baby_goods":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=baby_goods](bbox);out+skel;(way[shop=baby_goods](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=baby_goods](bbox);out+skel;(way[shop=baby_goods](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "butcher":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=butcher](bbox);out+skel;(way[shop=butcher](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=butcher](bbox);out+skel;(way[shop=butcher](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;
 			case "shoes":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=shoes](bbox);out+skel;(way[shop=shoes](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=shoes](bbox);out+skel;(way[shop=shoes](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "chemist":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;
 			case "medical_supply":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;
 			case "optician":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=optician](bbox);out+skel;(way[shop=optician](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=optician](bbox);out+skel;(way[shop=optician](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "doityourself":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "garden_centre":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "electronics":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "computer":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "mobile_phone":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mobile_phone](bbox);out+skel;(way[shop=mobile_phone](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=mobile_phone](bbox);out+skel;(way[shop=mobile_phone](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "stationery":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=stationery](bbox);out+skel;(way[shop=stationery](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=stationery](bbox);out+skel;(way[shop=stationery](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "toys":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=toys](bbox);out+skel;(way[shop=toys](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=toys](bbox);out+skel;(way[shop=toys](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "library":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "books":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=books](bbox);out+skel;(way[shop=books](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=books](bbox);out+skel;(way[shop=books](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
 			case "furniture":
 				map.addLayers([
 		  
-				make_layer("http://overpass-api.de/api/interpreter?data=node[shop=furniture](bbox);out+skel;(way[shop=furniture](bbox);node(w););out+skel;", "blue"),
+				make_layer("https://overpass-api.de/api/interpreter?data=node[shop=furniture](bbox);out+skel;(way[shop=furniture](bbox);node(w););out+skel;", "blue"),
 				 
 				]); 
 				break;	
@@ -380,31 +380,31 @@
   </script>
   
   <!-- Placeholder for all possible queries
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=beverages](bbox);out+skel;(way[shop=beverages](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mall](bbox);out+skel;(way[shop=mall](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=baby_goods](bbox);out+skel;(way[shop=baby_goods](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=butcher](bbox);out+skel;(way[shop=butcher](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=shoes](bbox);out+skel;(way[shop=shoes](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=optician](bbox);out+skel;(way[shop=optician](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=mobile_phone](bbox);out+skel;(way[shop=mobile_phone](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=stationery](bbox);out+skel;(way[shop=stationery](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=toys](bbox);out+skel;(way[shop=toys](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=books](bbox);out+skel;(way[shop=books](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=furniture](bbox);out+skel;(way[shop=furniture](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "yellow"),
-			  make_layer("http://overpass-api.de/api/interpreter?data=node[shop=clothes](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;node[shop=fashion](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;(way[shop=fashion](bbox);node(w););out+skel;", "yellow"),  
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=bakery](bbox);out+skel;(way[shop=bakery](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[amenity=library](bbox);out+skel;(way[amenity=library](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=supermarket](bbox);out+skel;(way[shop=supermarket](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=beverages](bbox);out+skel;(way[shop=beverages](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=mall](bbox);out+skel;(way[shop=mall](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=baby_goods](bbox);out+skel;(way[shop=baby_goods](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=butcher](bbox);out+skel;(way[shop=butcher](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=shoes](bbox);out+skel;(way[shop=shoes](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=optician](bbox);out+skel;(way[shop=optician](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=mobile_phone](bbox);out+skel;(way[shop=mobile_phone](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=stationery](bbox);out+skel;(way[shop=stationery](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=toys](bbox);out+skel;(way[shop=toys](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=books](bbox);out+skel;(way[shop=books](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=furniture](bbox);out+skel;(way[shop=furniture](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=chemist](bbox);out+skel;(way[shop=chemist](bbox);node(w););out+skel;node[shop=medical_supply](bbox);out+skel;(way[shop=medical_supply](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=electronics](bbox);out+skel;(way[shop=electronics](bbox);node(w););out+skel;node[shop=computer](bbox);out+skel;(way[shop=computer](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=doityourself](bbox);out+skel;(way[shop=doityourself](bbox);node(w););out+skel;node[shop=garden_centre](bbox);out+skel;(way[shop=garden_centre](bbox);node(w););out+skel;", "yellow"),
+			  make_layer("https://overpass-api.de/api/interpreter?data=node[shop=clothes](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;node[shop=fashion](bbox);out+skel;(way[shop=clothes](bbox);node(w););out+skel;(way[shop=fashion](bbox);node(w););out+skel;", "yellow"),  
    -->
   
 <!--   // Controll Size and Position of the Map, and Control Attribution  -->
   <style type="text/css">
         html, body, .map {
             width: 100%;
-            height: 60%;
+            height: 400px;
             margin: 0;
         }
 		.olControlAttribution {
@@ -418,8 +418,7 @@
 Currently not working!
 <div id="statusline" style="font-size:20pt; font-weight:normal; font-family:sans-serif">No status set yet.</div> 
 -->
-
+<body onload="init()">
   <div id="map" class="smallmap"></div>
-
 </body>
 </html>
